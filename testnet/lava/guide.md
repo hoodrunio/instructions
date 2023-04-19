@@ -63,7 +63,7 @@ lavad config chain-id lava-testnet-1
 - **Genesis Dosyası** 
 
 ```python
-wget -O ~/.lava/config/genesis.json https://raw.githubusercontent.com/omercanyenigun/Lava-Network-Node-Guide/main/genesis.json
+wget -O ~/.lava/config/genesis.json https://raw.githubusercontent.com/testnetrunn/instructions/main/testnet/lava/genesis.json
 ```
 
 
@@ -98,7 +98,7 @@ sed -i -e "s/^indexer *=.*/indexer = \"$indexer\"/" $HOME/.lava/config/config.to
 - **Addrbook Dosyası**
 
 ```python
-wget -O $HOME/.lava/config/addrbook.json https://raw.githubusercontent.com/omercanyenigun/Lava-Network-Node-Guide/main/addrbook.json
+wget -O $HOME/.lava/config/addrbook.json https://raw.githubusercontent.com/testnetrunn/instructions/main/testnet/lava/addrbook.json
 ```
 
 - **Servis Dosyası Düzenleme**
