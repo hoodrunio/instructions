@@ -66,6 +66,32 @@ lavad config chain-id lava-testnet-1
 wget -O ~/.lava/config/genesis.json https://raw.githubusercontent.com/testnetrunn/instructions/main/testnet/lava/genesis.json
 ```
 
+- **Addrbook Dosyası**
+
+```python
+wget -O $HOME/.lava/config/addrbook.json https://raw.githubusercontent.com/testnetrunn/instructions/main/testnet/lava/addrbook.json
+```
+
+- **Servis Dosyası Düzenleme**
+
+```python
+sudo tee /etc/systemd/system/lavad.service > /dev/null <<EOF
+[Unit]
+Description=lava
+After=network-online.target
+
+[Service]
+User=$USER
+ExecStart=$(which lavad) start
+Restart=on-failure
+RestartSec=3
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+
 
 - **Peers Ayarlama**
 
@@ -95,31 +121,6 @@ indexer="null" && \
 sed -i -e "s/^indexer *=.*/indexer = \"$indexer\"/" $HOME/.lava/config/config.toml
 ```
 
-- **Addrbook Dosyası**
-
-```python
-wget -O $HOME/.lava/config/addrbook.json https://raw.githubusercontent.com/testnetrunn/instructions/main/testnet/lava/addrbook.json
-```
-
-- **Servis Dosyası Düzenleme**
-
-```python
-sudo tee /etc/systemd/system/lavad.service > /dev/null <<EOF
-[Unit]
-Description=lava
-After=network-online.target
-
-[Service]
-User=$USER
-ExecStart=$(which lavad) start
-Restart=on-failure
-RestartSec=3
-LimitNOFILE=65535
-
-[Install]
-WantedBy=multi-user.target
-EOF
-```
 
 Snapshot (isteğe bağlı)
 
