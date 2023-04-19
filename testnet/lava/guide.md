@@ -127,7 +127,7 @@ Snapshot (isteğe bağlı)
 sudo systemctl stop lavad
 cp $HOME/.lava/data/priv_validator_state.json $HOME/.lava/priv_validator_state.json.backup 
 lavad tendermint unsafe-reset-all --home $HOME/.lava --keep-addr-book 
-curl https://sync.stakerun.com/testnet/lava/lava-testnet-1_2023-04-17.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.lava
+curl https://sync.stakerun.com/testnet/lava/lava-testnet-1_2023-04-19.tar | lz4 -dc - | tar -xf - -C $HOME/.lava
 mv $HOME/.lava/priv_validator_state.json.backup $HOME/.lava/data/priv_validator_state.json 
 ```
 
