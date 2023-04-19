@@ -74,11 +74,6 @@ PEERS="c8e034a7b1ae22e0a5aca0c85d0590c1e5da0dc3@3.65.2.114:26656,15480dd0fcccdf3
 sed -i 's|^persistent_peers *=.*|persistent_peers = "'$PEERS'"|' $HOME/.lava/config/config.toml
 ```
 
-- **Minimum Gas Fiyatı, Peers, Seeds Ayarlama**
-
-```python
-
-```
 
 - **Pruning (budama) isteğe bağlı**
 
