@@ -52,6 +52,10 @@ make install
 
 ## Versiyon Güncelleme
 
+![alt text](https://i.hizliresim.com/em4fjfd.png)
+
+Versiyonun güncellenecek olan bloğa geldiğinde size bu şekil uyarı verecek. Bu uyarıdan sonra aşağıdaki kodda ilgili yere versiyon numarasını girerek güncelleme yapabilirsiniz.
+
 ```python
 rm -rf lava
 git clone https://github.com/lavanet/lava
@@ -160,6 +164,9 @@ sudo systemctl enable lavad
 ```python
 sudo systemctl restart lavad && sudo journalctl -u lavad -f -o cat
 ```
+
+![alt text](https://i.hizliresim.com/gzl165n.png)
+
 
 ## Senkronizasyon Kontrolü (çıktı false ise senkronizasyon olmuştur)
 
