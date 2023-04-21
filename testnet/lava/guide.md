@@ -74,6 +74,7 @@ lavad config chain-id lava-testnet-1
 ```
 <moniker-adınız> yerine validatör isminizi girin
 
+![alt text](https://i.hizliresim.com/qo7w6wh.png)
 
 ## Genesis Dosyası
 
