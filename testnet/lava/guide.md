@@ -37,6 +37,9 @@ Version: 1.19 çıkmalı
 
 - **Yapılandırma**
 
+![alt text](https://i.hizliresim.com/5z6hrb6.png)
+
+
 ```python
 git clone https://github.com/lavanet/lava
 cd lava
