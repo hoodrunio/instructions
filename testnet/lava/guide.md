@@ -1,6 +1,5 @@
 
-![alt text](https://i.hizliresim.com/2je0x3c.png)
-
+![alt text](https://i.hizliresim.com/2gb6pg0.png)
 
 **Minimum Sistem Gereksinimleri**
 
