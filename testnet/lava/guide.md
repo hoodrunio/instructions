@@ -38,13 +38,25 @@ Version: 1.19 çıkmalı
 
 - **Yapılandırma**
 
-![alt text](https://i.hizliresim.com/5z6hrb6.png)
 
+
+[![alt text](https://i.hizliresim.com/5z6hrb6.png)](https://www.hizliresim.com/ese71dl)
+
+- **İlk Yapılandırma**
+- 
+```python
+git clone https://github.com/lavanet/lava
+cd lava
+git checkout v0.3.0 
+make install
+```
+
+- **Versiyon Güncelleme**
 
 ```python
 git clone https://github.com/lavanet/lava
 cd lava
-git checkout v0.9.8 
+git checkout <versiyon-numarasını-girin> 
 make install
 ```
 
@@ -53,7 +65,6 @@ make install
 ```python
 lavad version
 ```
-version: 0.9.8 çıkmalı
 
 - **Moniker ve Chain Belirleme**
 
