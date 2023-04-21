@@ -211,7 +211,7 @@ lavad tx staking create-validator \
   --commission-rate "0.1" \
   --min-self-delegation "1" \
   --pubkey  $(lavad tendermint show-validator) \
-  --moniker Testnet \
+  --moniker <moniker-adınız> \
   --chain-id lava-testnet-1 \
   --identity="" \
   --details="" \
