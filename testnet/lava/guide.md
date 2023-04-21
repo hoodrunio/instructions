@@ -53,6 +53,7 @@ make install
 - **Versiyon Güncelleme**
 
 ```python
+rm -rf lava
 git clone https://github.com/lavanet/lava
 cd lava
 git checkout <versiyon-numarasını-girin> 
