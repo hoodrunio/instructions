@@ -33,6 +33,8 @@ go version
 ```
 Version: 1.19 çıkmalı
 
+![alt text](https://i.hizliresim.com/hi4747o.png)
+
 
 - **Yapılandırma**
 
