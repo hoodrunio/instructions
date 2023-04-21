@@ -38,12 +38,11 @@ Version: 1.19 çıkmalı
 
 - **Yapılandırma**
 
+![alt text](https://i.hizliresim.com/ese71dl.png)
 
-
-[![alt text](https://i.hizliresim.com/5z6hrb6.png)](https://www.hizliresim.com/ese71dl)
 
 - **İlk Yapılandırma**
-- 
+
 ```python
 git clone https://github.com/lavanet/lava
 cd lava
