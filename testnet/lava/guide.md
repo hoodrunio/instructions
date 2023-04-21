@@ -223,11 +223,13 @@ lavad tx bank send <cüzdan-adresiniz> <gönderilecek-cüzdan-adresi> 500000000u
 ```python
 sudo systemctl stop lavad
 sudo systemctl disable lavad
-sudo rm -rf $HOME/.lava
-sudo rm -rf $HOME/lavad
-sudo rm -rf /etc/systemd/system/lavad.service
-sudo rm -rf /usr/local/bin/lavad
-sudo systemctl daemon-reload
+sudo rm /etc/systemd/system/lava* -rf
+sudo rm $(which lavad) -rf
+sudo rm $HOME/.lavad* -rf
+sudo rm $HOME/lavad -rf
+sed -i '/LAVA_/d' ~/.bash_profile
+rm -rf lava 
+rm -rf .lava
 ```
 
 - **Keplr Wallet'a Lava Testnet Ağı Ekleme**
