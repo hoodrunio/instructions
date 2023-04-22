@@ -242,6 +242,10 @@ lavad tx staking create-validator \
 
 ![alt text](https://i.hizliresim.com/9qzsj2b.png)
 
+
+![alt text](https://i.hizliresim.com/iulasq2.png)
+
+
 ## Validatör Ödüllerini Çekme
 
 ```python
