@@ -203,6 +203,7 @@ lavad keys add wallet --recover
 lavad  keys list
 ```
 
+![alt text](https://i.hizliresim.com/md1jgux.png)
 
 ## Faucetten Token İsteme
 
