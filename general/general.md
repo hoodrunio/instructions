@@ -62,7 +62,7 @@ Validatör oluşturma kodunda değiştirecek olduğunuz yerler; kujirad, 1000000
 ![alt text](https://i.hizliresim.com/ss2q435.png)
 
 - **--details= Validatörünüz hakkındaki bilgiler. (detaylar yerine yazılacak)**
-- **--website=sitenizin linki
+- --website=sitenizin linki
 - **--chain-id= projenin ağ ismi**
 - **--commission-rate= validatörünüze stake edilen tokenlerden alacak olduğunuz komisyon oranı (0.10=%10)**
 - **--commission-max-rate= maximum yapabileceğiniz komisyon oranı**
