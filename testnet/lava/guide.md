@@ -287,7 +287,8 @@ lavad tx staking redelegate $(lavad keys show wallet --bech val -a) <validatör�
 lavad tx staking unbond $(lavad keys show wallet --bech val -a) 1000000ulava --from wallet --chain-id lava-testnet-1 --gas-prices 0.1ulava --gas-adjustment 1.5 --gas auto -y 
 ```
 
-## Proposallara oy verme (yes olan yeri no yada abstain (çekimser) olarak değiştirebilirsiniz)
+## Proposallara Oy Verme 
+(yes olan yeri no yada abstain (çekimser) olarak değiştirebilirsiniz)
 
 ```python
 lavad tx gov vote proposal-ID yes --from wallet --chain-id lava-testnet-1 --gas-prices 0.1ulava --gas-adjustment 1.5 --gas auto -y 
