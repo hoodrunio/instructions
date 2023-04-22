@@ -246,17 +246,53 @@ lavad tx staking create-validator \
 ![alt text](https://i.hizliresim.com/iulasq2.png)
 
 
-## Validatör Ödüllerini Çekme
-
-```python
-lavad tx distribution withdraw-rewards <valoper-adresiniz> --from $LAVA_WALLET --commission --chain-id $LAVA_CHAIN --gas auto --fees 4000ulava
-```
-
 ## Başka Cüzdana Token Gönderme
 
 ```python
 lavad tx bank send <cüzdan-adresiniz> <gönderilecek-cüzdan-adresi> 500000000ulava --chain-id $LAVA_CHAIN --gas auto --fees 4000ulava
 ```
+
+## Validatör Ödüllerini Çekme
+
+```python
+lavad tx distribution withdraw-rewards <valoper-adresiniz> --from $LAVA_WALLET --commission --chain-id $LAVA_CHAIN --gas auto --fees 4000ulava
+```
+## Validatör Ödüllerini ve Komisyonları Çekme
+
+```python
+lavad tx distribution withdraw-rewards $(lavad keys show wallet --bech val -a) --commission --from wallet --chain-id lava-testnet-1 --gas-prices 0.1ulava --gas-adjustment 1.5 --gas auto -y
+```
+
+## Kendi Validatörünüze Token Delegate Etme
+
+```python
+lavad tx staking delegate $(lavad keys show wallet --bech val -a) 1000000ulava --from wallet --chain-id lava-testnet-1 --gas-prices 0.1ulava --gas-adjustment 1.5 --gas auto -y 
+```
+
+## Başka Validatöre Token Delegate Etme
+
+```python
+lavad tx staking delegate <validatörün-valoper-adresi> 1000000ulava --from wallet --chain-id lava-testnet-1 --gas-prices 0.1ulava --gas-adjustment 1.5 --gas auto -y 
+```
+
+## Başka Validatöre Redelagate Etme
+
+```python
+lavad tx staking redelegate $(lavad keys show wallet --bech val -a) <validatörün-valoper-adresi> 1000000ulava --from wallet --chain-id lava-testnet-1 --gas-prices 0.1ulava --gas-adjustment 1.5 --gas auto -y 
+```
+
+## Stake Edilen Tokenleri Unbond/Unstake Etme
+
+```python
+lavad tx staking unbond $(lavad keys show wallet --bech val -a) 1000000ulava --from wallet --chain-id lava-testnet-1 --gas-prices 0.1ulava --gas-adjustment 1.5 --gas auto -y 
+```
+
+## Proposallara oy verme (yes olan yeri no yada abstain (çekimser) olarak değiştirebilirsiniz)
+
+```python
+lavad tx gov vote proposal-ID yes --from wallet --chain-id lava-testnet-1 --gas-prices 0.1ulava --gas-adjustment 1.5 --gas auto -y 
+```
+proposal-ID=oy verecek olduğunuz proposalın ID numarası
 
 ## Sunucudan Lava'yı Silmek İçin
 
