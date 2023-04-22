@@ -226,7 +226,7 @@ lavad query bank balances cüzdanadresi
 
 ```python
 lavad tx staking create-validator \
-  --amount 1000000ulava \
+  --amount 100000ulava \
   --from wallet \
   --commission-max-change-rate "0.1" \
   --commission-max-rate "0.2" \
@@ -239,6 +239,8 @@ lavad tx staking create-validator \
   --details="" \
   --website="" -y
 ```
+
+![alt text](https://i.hizliresim.com/9qzsj2b.png)
 
 ## Validatör Ödüllerini Çekme
 
