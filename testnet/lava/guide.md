@@ -280,8 +280,20 @@ rm -rf .lava
 
 - **Lava Cüzdan Mnemoniclerinizi Keplr Wallet'a İmport Ederek Cüzdanınızı Keplr Wallet'ta Görebilirsiniz**
 
-![alt text](https://i.hizliresim.com/rxrgzjs.png)
+![alt text](https://i.hizliresim.com/jsphuwz.png)
 
 - **Explorer** - **https://lava.explorers.guru/validators**
+
+- **https://t.me/testnetrun**
+
+- **https://www.youtube.com/@TestNetRun**
+
+- **https://testnet.run/**
+
+- **https://stake.testnet.run/**
+
+- **https://twitter.com/testnetrun**
+
+![alt text](https://i.hizliresim.com/qw3rv2w.png)
 
 
