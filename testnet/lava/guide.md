@@ -211,13 +211,16 @@ lavad  keys list
 
 **Lava Discord**  **https://discord.gg/fmAtVh5MJG**
 
+![alt text](https://i.hizliresim.com/ctowj0c.png)
+
+
 ## Bakiye Kontrolü
 
 ```python
 lavad query bank balances cüzdanadresi
 ```
 
-
+![alt text](https://i.hizliresim.com/a9aosh5.png)
 
 ## Validatör Oluşturma
 
