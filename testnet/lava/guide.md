@@ -178,18 +178,24 @@ sudo systemctl restart lavad && sudo journalctl -u lavad -f -o cat
 lavad status 2>&1 | jq .SyncInfo
 ```
 
+![alt text](https://i.hizliresim.com/k45r7j4.png)
+
 ## Cüzdan Oluşturma veya İmport Etme
 
 ```python
 lavad keys add wallet
 ```
 
+![alt text](https://i.hizliresim.com/7oox2ju.png)
+
 - **Eğer kendi cüzdanınızı import etmek isterseniz**
 
 ```python
 lavad keys add wallet --recover
 ```
+![alt text](https://i.hizliresim.com/51ikv9j.png)
 
+![alt text](https://i.hizliresim.com/bfsnjqm.png)
 
 ## Cüzdan Listesi
 
