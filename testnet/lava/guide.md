@@ -319,7 +319,7 @@ rm -rf .lava
 
 ![alt text](https://i.hizliresim.com/jsphuwz.png)
 
-- **Explorer** - **https://lava.explorers.guru/validators**
+- Explorer** - **https://lava.explorers.guru/validators**
 
 - **https://t.me/testnetrun**
 
