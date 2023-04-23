@@ -265,6 +265,21 @@ df -h
 
 
 
+- **https://t.me/testnetrun**
+
+- **https://link3.to/testnetrun**
+
+- **https://www.youtube.com/@TestNetRun**
+
+- **https://testnet.run/**
+
+- **https://stake.testnet.run/**
+
+- **https://twitter.com/testnetrun**
+
+![alt text](https://i.hizliresim.com/qw3rv2w.png)
+
+
 
 
 
