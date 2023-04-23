@@ -323,6 +323,8 @@ rm -rf .lava
 
 - **https://t.me/testnetrun**
 
+- **https://link3.to/testnetrun**
+
 - **https://www.youtube.com/@TestNetRun**
 
 - **https://testnet.run/**
