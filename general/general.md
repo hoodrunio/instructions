@@ -16,24 +16,24 @@ Tokenlerde ise daha fazla değişkenlikler gösterebilir. Kyve da iki tane olmas
 
 ##Yeni Cüzdan 
 
-```
+```python
 kujirad keys add wallet
 ```
 
 ## Kullanmak istediğiniz cüzdan (cüzdan mnemoniclerinizi import etmek için)
 
-```
+```python
 kujirad keys add wallet --recover
 ```
 ## Cüzdanları isimleri ve adresleri ile listeleme
 
-```
+```python
 kujirad keys list
 ```
 
 ## Validatör Oluşturma
 
-```
+```python
 kujirad tx staking create-validator \
 --amount=1000000ukuji \
 --pubkey=$(kujirad tendermint show-validator) \
@@ -74,7 +74,7 @@ Validatör oluşturma kodunda değiştirecek olduğunuz yerler; kujirad, 1000000
 
 ## Oluşturmuş olduğunuz validatörde moniker, id, komisyon vb. değişikliği yapma
 
-```
+```python
 kujirad tx staking edit-validator \
 --new-moniker="Monikeradınız" \
 --identity=id \
@@ -91,38 +91,39 @@ kujirad tx staking edit-validator \
 
 ## Jailed durumundan kurtulmak için
 
-```
+```python
 kujirad tx slashing unjail --from wallet --chain-id kaiyo-1 --gas-prices 0.1ukuji --gas-adjustment 1.5 --gas auto -y
 ```
 
 
 ## Validatör detayını görme
 
-```
+```python
 kujirad q staking validator $(kujirad keys show wallet --bech val -a)
 ```
 
 ## Validatörünüzde biriken ödülleri çekme
 
-```
+
+```python
 kujirad tx distribution withdraw-all-rewards --from wallet --chain-id kaiyo-1 --gas-prices 0.1ukuji --gas-adjustment 1.5 --gas auto -y
 ```
 
 ## Validatörünüzde biriken ödül ve komisyonları çekme
 
-```
+```python
 kujirad tx distribution withdraw-rewards $(kujirad keys show wallet --bech val -a) --commission --from wallet --chain-id kaiyo-1 --gas-prices 0.1ukuji --gas-adjustment 1.5 --gas auto -y
 ```
 
 ## Kendi Validatörünüze token delege etme
 
-```
+```python
 kujirad tx staking delegate $(kujirad keys show wallet --bech val -a) 1000000ukuji --from wallet --chain-id kaiyo-1 --gas-prices 0.1ukuji --gas-adjustment 1.5 --gas auto -y
 ```
 
 ## Başka Validatöre token delege etme
 
-```
+```python
 kujirad tx staking delegate YOUR_TO_VALOPER_ADDRESS 1000000ukuji --from wallet --chain-id kaiyo-1 --gas-prices 0.1ukuji --gas-adjustment 1.5 --gas auto -y
 ```
 
@@ -134,19 +135,20 @@ kujirad tx staking delegate YOUR_TO_VALOPER_ADDRESS 1000000ukuji --from wallet -
 
 ## Redelegate: Stake ettiğiniz tokenleri başka validaötüre delege etme
 
-```
+```python
 kujirad tx staking redelegate $(kujirad keys show wallet --bech val -a) valoperadresi 1000000ukuji --from wallet --chain-id kaiyo-1 --gas-prices 0.1ukuji --gas-adjustment 1.5 --gas auto -y
 ```
 
 ## Unbond: Stake ettiğiniz tokenleri unstake etme (testnet ve mainnet ağlarında unstake süresi genellikle 14-21gündür.)
 
-```
+```python
 kujirad tx staking unbond $(kujirad keys show wallet --bech val -a) 1000000ukuji --from wallet --chain-id kaiyo-1 --gas-prices 0.1ukuji --gas-adjustment 1.5 --gas auto -y 
 ```
 
 ## Send: Token gönderme
 
-```
+
+```python
 kujirad tx bank send wallet cüzdanadresi 1000000ukuji --from wallet --chain-id kaiyo-1 --gas-prices 0.1ukuji --gas-adjustment 1.5 --gas auto -y 
 ```
 
@@ -155,25 +157,25 @@ cüzdanadresi=gönderecek olduğunuz cüzdan adresi
 
 ## Aktif olan proposal/oylamaları görme
 
-```
+```python
 kujirad query gov proposals
 ```
 
 EVET oyu
 
-```
+```python
 kujirad tx gov vote 1 yes --from wallet --chain-id kaiyo-1 --gas-prices 0.1ukuji --gas-adjustment 1.5 --gas auto -y
 ```
 
 HAYIR oyu
 
-```
+```python
 kujirad tx gov vote 1 no --from wallet --chain-id kaiyo-1 --gas-prices 0.1ukuji --gas-adjustment 1.5 --gas auto -y
 ```
 
 ÇEKİMSER oyu
 
-```
+```python
 kujirad tx gov vote 1 abstain --from wallet --chain-id kaiyo-1 --gas-prices 0.1ukuji --gas-adjustment 1.5 --gas auto -y
 ```
 
@@ -182,7 +184,7 @@ kujirad tx gov vote 1 abstain --from wallet --chain-id kaiyo-1 --gas-prices 0.1u
 Buradaki kodda kv=dizinleri tutar
 null=dizinleri tutmaz. (sunucuda fazla yer kaplamaz)
 
-```
+```python
 sed -i 's|^indexer *=.*|indexer = "kv"|' $HOME/.kujira/config/config.toml
 ```
 
@@ -195,24 +197,75 @@ Bu kod ile projenin bütün block datalarını sunucunuzda tutmazsınız. Örnek
 Testnet projeleri için uygundur. Mainnet Validatörleri için tercih edilmez.
 
 
-```
+```python
 sed -i.bak -e 's|^pruning *=.*|pruning = "custom"|; s|^pruning-keep-recent *=.*|pruning-keep-recent = "100"|; s|^pruning-keep-every *=.*|pruning-keep-every = "0"|; s|^pruning-interval *=.*|pruning-interval = "17"|' $HOME/.kujira/config/app.toml
 ```
 Koddaki .kujira klasörünü değiştirin.
 
 ## Peer ekleme
 
-```
+```python
 PEERS="peerleriburayaekleyin"
 sed -i 's|^persistent_peers *=.*|persistent_peers = "'$PEERS'"|' $HOME/.kujira/config/config.toml
 ```
 Eğer Node'unuz ağa bağlanmazsa peer eklemeniz gerekebilir. Güncel peerleri discord veya telegram kanallarından bulup koddaki ilgili yere girmeniz gerek. 
 Örnek olarak;
 
-```
+```python
 PEERS="d6f2eee997d108d4fde5683e31d678427376dfce@77.68.27.75:26656,1a781f294b8c30ab0b4e54494359263e9b389ebb@141.94.219.133:11756,ff7a1787ea93a49ece2ee92f601a4c52951278c4@185.119.118.112:2000,09076c7908db88316498cf4cd4702a8d269e0da9@15.235.114.85:26656"
 sed -i 's|^persistent_peers *=.*|persistent_peers = "'$PEERS'"|' $HOME/.kujira/config/config.toml
 ```
+
+# Diğer Kullanılabilecek Kodlar
+
+## Htop 
+
+linux sunucu üzerinde anlık olarak hangi işlemlerin ne kadar kaynak tükettiğini görebildiğiniz, CPU,ram ve anlık load durumlarını gösteren bir izleme programıdır.
+
+- **Htop kurulu değilse**
+
+```python
+apt install htop
+```
+
+```python
+htop
+```
+
+![alt text](https://i.hizliresim.com/l44z6li.png)
+
+
+## ls $ ls -a
+
+ls = bulunduğunuz dizindeki klasörleri gösterir
+
+ls -a = bulunduğunuz dizindeki klasörlerle birikte gizli klasörleri de gösterir
+
+```python
+ls
+```
+
+
+```python
+ls -a
+```
+
+![alt text](https://i.hizliresim.com/gc1tkr7.png)
+
+
+## df -h
+
+Sunucunuzun disk kullanımını GB boyutunda görterir.
+
+```python
+df -h
+```
+
+![alt text](https://i.hizliresim.com/80bdm30.png)
+
+
+
+
 
 
 
