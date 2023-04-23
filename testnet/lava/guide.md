@@ -249,13 +249,13 @@ lavad tx staking create-validator \
 ## Başka Cüzdana Token Gönderme
 
 ```python
-lavad tx bank send <cüzdan-adresiniz> <gönderilecek-cüzdan-adresi> 500000000ulava --chain-id $LAVA_CHAIN --gas auto --fees 4000ulava
+lavad tx bank send <cüzdan-adresiniz> <gönderilecek-cüzdan-adresi> 500000000ulava --chain-id lava-testnet-1 --gas auto --fees 4000ulava
 ```
 
 ## Validatör Ödüllerini Çekme
 
 ```python
-lavad tx distribution withdraw-rewards <valoper-adresiniz> --from $LAVA_WALLET --commission --chain-id $LAVA_CHAIN --gas auto --fees 4000ulava
+lavad tx distribution withdraw-rewards <valoper-adresiniz> --from $LAVA_WALLET --commission --chain-id lava-testnet-1 --gas auto --fees 4000ulava
 ```
 ## Validatör Ödüllerini ve Komisyonları Çekme
 
