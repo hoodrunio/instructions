@@ -255,7 +255,7 @@ lavad tx bank send <cüzdan-adresiniz> <gönderilecek-cüzdan-adresi> 500000000u
 ## Validatör Ödüllerini Çekme
 
 ```python
-lavad tx distribution withdraw-rewards <valoper-adresiniz> --from $LAVA_WALLET --commission --chain-id lava-testnet-1 --gas auto --fees 4000ulava
+lavad tx distribution withdraw-rewards <valoper-adresiniz> --from wallet --commission --chain-id lava-testnet-1 --gas auto --fees 4000ulava
 ```
 ## Validatör Ödüllerini ve Komisyonları Çekme
 
