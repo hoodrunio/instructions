@@ -124,7 +124,7 @@ kujirad tx staking delegate $(kujirad keys show wallet --bech val -a) 1000000uku
 ## Başka Validatöre token delege etme
 
 ```python
-kujirad tx staking delegate YOUR_TO_VALOPER_ADDRESS 1000000ukuji --from wallet --chain-id kaiyo-1 --gas-prices 0.1ukuji --gas-adjustment 1.5 --gas auto -y
+kujirad tx staking delegate <validatörün-valoper-adresi> 1000000ukuji --from wallet --chain-id kaiyo-1 --gas-prices 0.1ukuji --gas-adjustment 1.5 --gas auto -y
 ```
 
 
@@ -136,7 +136,7 @@ kujirad tx staking delegate YOUR_TO_VALOPER_ADDRESS 1000000ukuji --from wallet -
 ## Redelegate: Stake ettiğiniz tokenleri başka validaötüre delege etme
 
 ```python
-kujirad tx staking redelegate $(kujirad keys show wallet --bech val -a) valoperadresi 1000000ukuji --from wallet --chain-id kaiyo-1 --gas-prices 0.1ukuji --gas-adjustment 1.5 --gas auto -y
+kujirad tx staking redelegate $(kujirad keys show wallet --bech val -a) <validatörün-valoper-adresi> 1000000ukuji --from wallet --chain-id kaiyo-1 --gas-prices 0.1ukuji --gas-adjustment 1.5 --gas auto -y
 ```
 
 ## Unbond: Stake ettiğiniz tokenleri unstake etme (testnet ve mainnet ağlarında unstake süresi genellikle 14-21gündür.)
@@ -218,7 +218,7 @@ sed -i 's|^persistent_peers *=.*|persistent_peers = "'$PEERS'"|' $HOME/.kujira/c
 
 # Diğer Kullanılabilecek Kodlar
 
-## Htop 
+## htop 
 
 linux sunucu üzerinde anlık olarak hangi işlemlerin ne kadar kaynak tükettiğini görebildiğiniz, CPU,ram ve anlık load durumlarını gösteren bir izleme programıdır.
 
