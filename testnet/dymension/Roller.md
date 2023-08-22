@@ -94,10 +94,12 @@ rollapp_evm tx ibc-transfer transfer transfer <src-channel> dym1g8sf7w4cz5gtupa6
 
 koddaki <src-channel> : channel-0 (sizin relayer çıktısındaki kaynak kanalı)
 
-<base-denom> : buraya oluşturmuş olduğunuz tokenin adını girin. Örnek olarak TNR ise uTNR olarak girin
+base-denom: buraya oluşturmuş olduğunuz tokenin adını girin. Örnek olarak TNR ise uTNR olarak girin
 
-Örnek kod: rollapp_evm tx ibc-transfer transfer transfer channel-2 dym1g8sf7w4cz5gtupa6y62h3q6a4gjv37pgefnpt5 5000000000000000000000000uTNR --from rollapp_sequencer --keyring-backend test --home ~/.roller/rollapp --broadcast-mode block
-
+```python
+Örnek kod: 
+rollapp_evm tx ibc-transfer transfer transfer channel-2 dym1g8sf7w4cz5gtupa6y62h3q6a4gjv37pgefnpt5 5000000000000000000000000uTNR --from rollapp_sequencer --keyring-backend test --home ~/.roller/rollapp --broadcast-mode block
+```
 
 Bundan sonra 5-10 dk bekleyin. Discord froopyland-faucet kanalında balances kontrolü yapın.
 
