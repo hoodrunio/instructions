@@ -45,7 +45,7 @@ cd dymension
 make install
 ```
 
-- **Dymension Version Kontrol
+- **Dymension Version Kontrol**
 
 ```python
 dymd version --long
@@ -54,7 +54,7 @@ dymd version --long
 ![alt text](https://i.hizliresim.com/b4mz0a0.png)
 
 
-# Moniker yerine validatör isminizi girin
+- **Moniker yerine validatör isminizi girin**
 
 ```python
 dymd init <moniker> --chain-id=froopyland_100-1
@@ -141,28 +141,28 @@ dymd status 2>&1 | jq .SyncInfo
 ![alt text](https://i.hizliresim.com/5e175ph.png)
 
 
-Çıktı false ise nodeunuz senkronizasyon olmuş demektir. Bundan sonra diğer adımlara geçin.
+- **Çıktı false ise nodeunuz senkronizasyon olmuş demektir. Bundan sonra diğer adımlara geçin.**
 
 
-Cüzdan Oluşturma (cüzdan ismi wallet olarak girilmiştir. Değiştirmek isterseniz wallet olan yeri değiştirin)
+- **Cüzdan Oluşturma (cüzdan ismi wallet olarak girilmiştir. Değiştirmek isterseniz wallet olan yeri değiştirin)**
 
 ```python
 dymd keys add wallet
 ```
 
-Cüzdan import etmek isterseniz
+- **Cüzdan import etmek isterseniz**
 
 ```python
 dymd keys add wallet --recover
 ```
-import etmek istediğiniz cüzdanın mnemoniclerini girin
+- **import etmek istediğiniz cüzdanın mnemoniclerini girin**
 
 ![alt text](https://i.hizliresim.com/m9phwsn.png)
 
 
 #  Faucet
 
-Dymension Discord kanalındaki froopyland-faucet kanalından token isteyin.
+- **Dymension Discord kanalındaki froopyland-faucet kanalından token isteyin.**
 
 ![alt text](https://i.hizliresim.com/sdiw956.png)
 
@@ -175,7 +175,7 @@ dymd q bank balances $(dymd keys show wallet -a)
 ![alt text](https://i.hizliresim.com/scnbdj9.png)
 
 
-İsterseniz Discord froopyland-faucet kanalında da kontrol edebilirsiniz.
+- **İsterseniz Discord froopyland-faucet kanalında da kontrol edebilirsiniz.**
 
 ![alt text](https://i.hizliresim.com/1rxv7he.png)
 
@@ -205,7 +205,7 @@ dymd tx staking create-validator \
 -y
 ```
 
-amount, moniker, details, identity, website ve security-contact için kendi bilgilerinizi girebilirsiniz.
+- **amount, moniker, details, identity, website ve security-contact için kendi bilgilerinizi girebilirsiniz.**
 
 
 ![alt text](https://i.hizliresim.com/ezvx95d.png)
