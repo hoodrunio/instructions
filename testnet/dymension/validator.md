@@ -28,7 +28,7 @@ echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile &
 source $HOME/.bash_profile
 ```
 
-- **Go Versiyon Kontrolü**
+### Go Versiyon Kontrolü
 
 ```python
 go version
@@ -45,7 +45,7 @@ cd dymension
 make install
 ```
 
-- **Dymension Version Kontrol**
+### Dymension Version Kontrol
 
 ```python
 dymd version --long
@@ -69,7 +69,7 @@ external_address=$(wget -qO- eth0.me)
 sed -i.bak -e "s/^external_address *=.*/external_address = \"$external_address:26656\"/" $HOME/.dymension/config/config.toml
 ```
 
-# Pruning ve Indexer Ayarları
+### Pruning ve Indexer Ayarları
 
 ```python
 pruning="custom"
@@ -84,13 +84,13 @@ indexer="null" && \
 sed -i -e "s/^indexer *=.*/indexer = \"$indexer\"/" $HOME/.dymension/config/config.toml
 ```
 
-# Genesis Dosyası
+### Genesis Dosyası
 
 ```python
 curl -s https://raw.githubusercontent.com/testnetrunn/instructions/main/testnet/dymension/genesis.json > $HOME/.dymension/config/genesis.json
 ```
 
-# Addrbook Dosyası
+### Addrbook Dosyası
 
 ```python
 curl -s https://raw.githubusercontent.com/testnetrunn/instructions/main/testnet/dymension/addrbook.json > $HOME/.dymension/config/addrbook.json
@@ -98,7 +98,7 @@ curl -s https://raw.githubusercontent.com/testnetrunn/instructions/main/testnet/
 
 
 
-# Servis
+### Servis
 
 ```python
 sudo tee /etc/systemd/system/dymd.service > /dev/null <<EOF
@@ -125,7 +125,7 @@ sudo systemctl restart dymd
 ```
 
 
-#  Log Kontrol
+### Log Kontrol
 
 ```python
 sudo journalctl -u dymd -f --no-hostname -o cat
@@ -144,7 +144,9 @@ dymd status 2>&1 | jq .SyncInfo
 - **Çıktı false ise nodeunuz senkronizasyon olmuş demektir. Bundan sonra diğer adımlara geçin.**
 
 
-- **Cüzdan Oluşturma (cüzdan ismi wallet olarak girilmiştir. Değiştirmek isterseniz wallet olan yeri değiştirin)**
+### Cüzdan Oluşturma 
+
+- **cüzdan ismi wallet olarak girilmiştir. Değiştirmek isterseniz wallet olan yeri değiştirin**
 
 ```python
 dymd keys add wallet
@@ -160,13 +162,13 @@ dymd keys add wallet --recover
 ![alt text](https://i.hizliresim.com/m9phwsn.png)
 
 
-#  Faucet
+### Faucet
 
 - **Dymension Discord kanalındaki froopyland-faucet kanalından token isteyin.**
 
 ![alt text](https://i.hizliresim.com/sdiw956.png)
 
-#  Balance Kontrol
+### Balance Kontrol
 
 ```python
 dymd q bank balances $(dymd keys show wallet -a)
@@ -180,7 +182,7 @@ dymd q bank balances $(dymd keys show wallet -a)
 ![alt text](https://i.hizliresim.com/1rxv7he.png)
 
 
-#  Validatör
+### Validatör
 
 
 
