@@ -107,7 +107,7 @@ Bundan sonra 5-10 dk bekleyin. Discord froopyland-faucet kanalında balances kon
 $balances dym1g8sf7w4cz5gtupa6y62h3q6a4gjv37pgefnpt5 <rollapp-id>
 ```
 
-Buradaki <rollapp-id> sizin id ilk başta belirlediğiniz id'niz. örnek: mytestnetrunrollapp_3448-1
+Buradaki rollapp-id sizin id ilk başta belirlediğiniz id'niz. örnek: mytestnetrunrollapp_3448-1
 
 Bot Dymension Hub adresinde sizin token adetini gösterdikten sonra kendi tokeninizi talep edin
 
