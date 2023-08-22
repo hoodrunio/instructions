@@ -8,7 +8,7 @@
 - **160GB DISK**
 - **Ubuntu 20.04+**
 
-## Gerekli Güncellemeler
+### Gerekli Güncellemeler
 
 ```python
 sudo apt update && sudo apt upgrade -y
@@ -16,7 +16,7 @@ sudo apt install curl build-essential pkg-config make libssl-dev git wget jq mak
 ```
 
 
-## Go Kurulum ve Versiyon Kontrolü
+### Go Kurulum ve Versiyon Kontrolü
 
 ```python
 ver="1.20.5" && \
