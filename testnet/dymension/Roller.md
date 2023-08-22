@@ -115,7 +115,7 @@ Bot Dymension Hub adresinde sizin token adetini gösterdikten sonra kendi tokeni
 $request <user-address> <rollapp-id>
 ```
 
-<user-address> : dym adresiniz
+user-address: dym adresiniz
 
 NOT: channel aktif olduktan sonra burayı ss ler ile güncelleyeceğiz.
 
