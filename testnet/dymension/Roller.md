@@ -1,5 +1,13 @@
 ![alt text](https://i.hizliresim.com/9w1u7aw.png)
 
+# ÖNEMLİ
+- **Bütün işlemleri yapmış ve hazırsanız formu doldurun.**
+
+- **Form** **https://dymension.typeform.com/RollAppListing**
+
+- **Portal RollApps** **https://portal.dymension.xyz/rollapps**
+
+
 
 ```python
 curl -L https://dymensionxyz.github.io/roller/install.sh | bash
@@ -146,7 +154,19 @@ roller keys export my_celes_key
 # ÖNEMLİ
 - **Bütün işlemleri yapmış ve hazırsanız formu doldurun.**
 
-
 - **Form** **https://dymension.typeform.com/RollAppListing**
 
 - **Portal RollApps** **https://portal.dymension.xyz/rollapps**
+
+
+- **https://t.me/testnetrun**
+
+- **https://link3.to/testnetrun**
+
+- **https://www.youtube.com/@TestNetRun**
+
+- **https://testnet.run/**
+
+- **https://stake.testnet.run/**
+
+- **https://twitter.com/testnetrun**
