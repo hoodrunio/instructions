@@ -49,7 +49,7 @@ Dym adresleri için froopyland-faucet
 Celestia adresi için celestia-faucet
 
 ![alt text](https://i.hizliresim.com/tauygsy.png)
-![alt text](https://i.hizliresim.com/d6r186r.png
+![alt text](https://i.hizliresim.com/d6r186r.png)
 ![alt text](https://i.hizliresim.com/qhqmawp.png)
 
 
