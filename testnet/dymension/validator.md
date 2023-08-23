@@ -1,5 +1,8 @@
 ![alt text](https://i.hizliresim.com/20m956g.png)
 
+# Hatırlatma
+- **Validatör teşviği şu an Froopyland Validators rolü olanlar için geçerli. Makalede bu sayının artırılacağı yazıyor.
+Validatör ile Roller farklı. İkisini kurmak zorunda değilsiniz. Fakat Roller'i RollApp Fam rolünüz varsa kurun. Eğer rolünüz yoksa kurulum yaptıktan sonra Discord'daki #share-your-rollapp kanalına kanıt olarak gönderin. Makalenin en altında yazıyor.**
 
 # Minimum Sistem Gereksinimleri
 
@@ -8,9 +11,7 @@
 - **160GB DISK**
 - **Ubuntu 20.04+**
 - 
-###Hatırlatma
-Validatör teşviği şu an Froopyland Validators rolü olanlar için geçerli. Makalede bu sayının artırılacağı yazıyor.
-Validatör ile Roller farklı. İkisini kurmak zorunda değilsiniz. Fakat Roller'i RollApp Fam rolünüz varsa kurun. Eğer rolünüz yoksa kurulum yaptıktan sonra Discord'daki #share-your-rollapp kanalına kanıt olarak gönderin. Makalenin en altında yazıyor.
+
 
 - **Explorer** **https://medium.com/@dymension/froopyland-is-live-8bf21e9d7046**
 
