@@ -91,11 +91,14 @@ Buradaki channel-6 yerine sizde ne yazıyorsa o sizin kaynak kanalınızdır.
 rollapp_evm tx ibc-transfer transfer transfer <src-channel> dym1g8sf7w4cz5gtupa6y62h3q6a4gjv37pgefnpt5 5000000000000000000000000<base-denom> --from rollapp_sequencer --keyring-backend test --home ~/.roller/rollapp --broadcast-mode block
 ```
 
-koddaki <src-channel> : channel-0 (sizin relayer çıktısındaki kaynak kanalı)
+koddaki src-channel : channel-0 (sizin relayer çıktısındaki kaynak kanalı)
 
-<base-denom> : buraya oluşturmuş olduğunuz tokenin adını girin. Örnek olarak TNR ise uTNR olarak girin
+base-denom : buraya oluşturmuş olduğunuz tokenin adını girin. Örnek olarak TNR ise uTNR olarak girin
 
-Örnek kod: rollapp_evm tx ibc-transfer transfer transfer channel-6 dym1g8sf7w4cz5gtupa6y62h3q6a4gjv37pgefnpt5 5000000000000000000000000uTNR --from rollapp_sequencer --keyring-backend test --home ~/.roller/rollapp --broadcast-mode block
+```python
+Örnek kod:
+rollapp_evm tx ibc-transfer transfer transfer channel-6 dym1g8sf7w4cz5gtupa6y62h3q6a4gjv37pgefnpt5 5000000000000000000000000uTNR --from rollapp_sequencer --keyring-backend test --home ~/.roller/rollapp --broadcast-mode block
+```
 
 
 ![alt text](https://i.hizliresim.com/aa645uf.png)
