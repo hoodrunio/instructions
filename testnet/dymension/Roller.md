@@ -91,9 +91,9 @@ Buradaki channel-6 yerine sizde ne yazıyorsa o sizin kaynak kanalınızdır.
 rollapp_evm tx ibc-transfer transfer transfer <src-channel> dym1g8sf7w4cz5gtupa6y62h3q6a4gjv37pgefnpt5 5000000000000000000000000<base-denom> --from rollapp_sequencer --keyring-backend test --home ~/.roller/rollapp --broadcast-mode block
 ```
 
-koddaki src-channel : channel-0 (sizin relayer çıktısındaki kaynak kanalı)
+koddaki src-channel: channel-0 (sizin relayer çıktısındaki kaynak kanalı)
 
-base-denom : buraya oluşturmuş olduğunuz tokenin adını girin. Örnek olarak TNR ise uTNR olarak girin
+base-denom: buraya oluşturmuş olduğunuz tokenin adını girin. Örnek olarak TNR ise uTNR olarak girin
 
 ```python
 Örnek kod:
@@ -118,7 +118,7 @@ Bot Dymension Hub adresinde sizin token adetini gösterdikten sonra kendi tokeni
 $request <user-address> <rollapp-id>
 ```
 
-user-address : dym adresiniz
+user-address: dym adresiniz
 
 ### Roller Export Keys
 
