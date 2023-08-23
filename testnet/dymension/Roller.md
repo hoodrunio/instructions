@@ -31,13 +31,13 @@ Ağ olarak froopyland'ı seçin
 
 ![alt text](https://i.hizliresim.com/9f9688f.png)
 
-
+```python
 RollApp ID için istenilen tarzda ID belirleyin. örn: mytestnetrunrollapp_3448-1
-
 Enter your RollApp ID: örn:mytestnetrunrollapp_3448-1
 Specify your RollApp denom: örn:TNR
 How many TNR tokens do you wish to mint for Genesis? Token adedini belirleyin örn: 10000000000
 Diğer soruda celestia seçtim.
+```
 
 ![alt text](https://i.hizliresim.com/nl536xo.png)
 
