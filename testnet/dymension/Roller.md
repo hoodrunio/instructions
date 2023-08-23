@@ -1,4 +1,3 @@
-
 ![alt text](https://i.hizliresim.com/9w1u7aw.png)
 
 
@@ -42,7 +41,7 @@ Dym adresleri için froopyland-faucet
 Celestia adresi için celestia-faucet
 
 ![alt text](https://i.hizliresim.com/tauygsy.png)
-![alt text](https://i.hizliresim.com/d6r186r.png)
+![alt text](https://i.hizliresim.com/d6r186r.png
 ![alt text](https://i.hizliresim.com/qhqmawp.png)
 
 
@@ -72,7 +71,7 @@ Bu panelde DA Light Client, Relayer ve Squencer Active olarak çalışması gere
 
 Channel ID bulduktan sonra şöyle görünecek
 
-![alt text](https://i.hizliresim.com/34hzrrr.png)
+![alt text](https://i.hizliresim.com/kotfjh3.png)
 
 ### IBC transferi
 
@@ -83,10 +82,10 @@ Dymension Hub faucet adresi: dym1g8sf7w4cz5gtupa6y62h3q6a4gjv37pgefnpt5
 ```python
 roller relayer channel show
 ```
+![alt text](https://i.hizliresim.com/rv1nvhg.png)
 
-💈 Relayer Channels: src, channel-0 <-> channel-1, dst 
 Bu çıktı paneldeki Relayer çıktısı ile aynıdır.
-Buradaki channel-0 yerine sizde ne yazıyorsa o sizin kaynak kanalınızdır.
+Buradaki channel-6 yerine sizde ne yazıyorsa o sizin kaynak kanalınızdır.
 
 ```python
 rollapp_evm tx ibc-transfer transfer transfer <src-channel> dym1g8sf7w4cz5gtupa6y62h3q6a4gjv37pgefnpt5 5000000000000000000000000<base-denom> --from rollapp_sequencer --keyring-backend test --home ~/.roller/rollapp --broadcast-mode block
@@ -94,20 +93,21 @@ rollapp_evm tx ibc-transfer transfer transfer <src-channel> dym1g8sf7w4cz5gtupa6
 
 koddaki <src-channel> : channel-0 (sizin relayer çıktısındaki kaynak kanalı)
 
-base-denom: buraya oluşturmuş olduğunuz tokenin adını girin. Örnek olarak TNR ise uTNR olarak girin
+<base-denom> : buraya oluşturmuş olduğunuz tokenin adını girin. Örnek olarak TNR ise uTNR olarak girin
 
-```python
-Örnek kod: 
-rollapp_evm tx ibc-transfer transfer transfer channel-2 dym1g8sf7w4cz5gtupa6y62h3q6a4gjv37pgefnpt5 5000000000000000000000000uTNR --from rollapp_sequencer --keyring-backend test --home ~/.roller/rollapp --broadcast-mode block
-```
+Örnek kod: rollapp_evm tx ibc-transfer transfer transfer channel-6 dym1g8sf7w4cz5gtupa6y62h3q6a4gjv37pgefnpt5 5000000000000000000000000uTNR --from rollapp_sequencer --keyring-backend test --home ~/.roller/rollapp --broadcast-mode block
 
-Bundan sonra 5-10 dk bekleyin. Discord froopyland-faucet kanalında balances kontrolü yapın.
+
+![alt text](https://i.hizliresim.com/aa645uf.png)
+
+
+Bundan sonra 25-30 dk bekleyin. Discord froopyland-faucet kanalında balances kontrolü yapın.
 
 ```python
 $balances dym1g8sf7w4cz5gtupa6y62h3q6a4gjv37pgefnpt5 <rollapp-id>
 ```
 
-Buradaki rollapp-id sizin id ilk başta belirlediğiniz id'niz. örnek: mytestnetrunrollapp_3448-1
+Buradaki <rollapp-id> sizin id ilk başta belirlediğiniz id'niz. örnek: mytestnetrunrollapp_3448-1
 
 Bot Dymension Hub adresinde sizin token adetini gösterdikten sonra kendi tokeninizi talep edin
 
@@ -115,19 +115,35 @@ Bot Dymension Hub adresinde sizin token adetini gösterdikten sonra kendi tokeni
 $request <user-address> <rollapp-id>
 ```
 
-user-address: dym adresiniz
+<user-address> : dym adresiniz
 
-NOT: channel aktif olduktan sonra burayı ss ler ile güncelleyeceğiz.
+### Roller Export Keys
+
+```python
+roller keys list
+```
+
+![alt text](https://i.hizliresim.com/oojdfml.png)
 
 
-- **https://t.me/testnetrun**
+```python
+roller keys export hub_sequencer
+```
 
-- **https://link3.to/testnetrun**
+```python
+roller keys export rollapp_sequencer
+```
 
-- **https://www.youtube.com/@TestNetRun**
+```python
+roller keys export my_celes_key
+```
 
-- **https://testnet.run/**
+![alt text](https://i.hizliresim.com/ttpvzlb.png)
 
-- **https://stake.testnet.run/**
+# ÖNEMLİ
+- **Bütün işlemleri yapmış ve hazırsanız formu doldurun.**
 
-- **https://twitter.com/testnetrun**
+
+- **Form** **https://dymension.typeform.com/RollAppListing**
+
+- **Portal RollApps** **https://portal.dymension.xyz/rollapps**
