@@ -17,7 +17,7 @@ Validatör ile Roller farklı. İkisini kurmak zorunda değilsiniz. Fakat Roller
 
 ```python
 sudo apt update && sudo apt upgrade -y
-sudo apt install curl iptables build-essential git wget jq make gcc nano tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev -y
+sudo apt install curl build-essential pkg-config libssl-dev git wget jq make gcc chrony -y
 ```
 
 
