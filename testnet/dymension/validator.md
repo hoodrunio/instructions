@@ -21,7 +21,7 @@ sudo apt install curl iptables build-essential git wget jq make gcc nano tmux ht
 ```
 
 
-### Go Kurulum ve Versiyon Kontrolü
+### Go Kurulumu
 
 ```python
 ver="1.20.5" && \
