@@ -10,6 +10,28 @@
 - **12 Eylül: Testnet Optimizasyonunun Kapatılması**
 - **14 Eylül:Geri bildirim, veri sonuçlarını ve kalıcı testnet spin-up tahminleri.**
 
+# Roadmap
+
+- **Phase 0 ila 5
+Fleek Network, mainnetin kullanıma sunulması için çok aşamalı bir yaklaşım kullanacaktır. Aşağıda belirtilen mevcut yüksek düzeyli plan, çeşitli faktörlere bağlıdır ve farklı aşamalar boyunca toplanan geliştirme zaman çizelgelerine ve/veya veri/geri beslemeye yanıt olarak değişebilir.**
+
+- **Phase 0 ( 5 Eylül ): Node Çıkışı
+İlk ağ ve node testi ( performans, donanım özellikleri, kümeleme, maliyetler, metrikler vb.)**
+
+- **Phase 1 ( Eylül ortası ): SDK / Hizmet Sunumu
+SDK'yı tanıtın ve ağdaki hizmetlerin inşasını ve kullanımını ve ayrıca Phase 0'a dayalı bazı optimizasyonları test edin.**
+
+- **Phase 2 ( Ekim ): İlk Ekonomi Sunumu
+Test ( değersiz ) tokenları ve Phase 1'e dayalı bazı optimizasyonlar kullanarak stake, fiyatlandırma ve diğer unsurlar/durumlar dahil olmak üzere ekonomik algoritmanın daha somut bir versiyonunu tanıtın ve test edin.**
+
+- **Phase 3 ( Kasım ): Layer 2 Sözleşmelerinin Sunulması
+Protokolün bir Ethereum L2 ( stake, depozito ve token sözleşmeleri, L2 / FN arasındaki iletişim vb. ) üzerinde yaşayacak yönlerinin bir test sürümünü tanıtın.**
+
+- **Phase 4 ( Aralık ): Son Sunum
+Tüm aşamalardaki tüm veri / geri bildirim ve optimizasyonlara dayanarak ağın ilk neslinin son formunu tanıtın ve gerçekçi bir ana ağ ortamının nasıl olacağını test etmeyi sağlayın.**
+
+- **Phase 5 ( Q1 2024 ): Mainnet Lansmanı**
+
 # Minimum Sistem Gereksinimleri
 
 - **4 CPU**
