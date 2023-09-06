@@ -66,7 +66,7 @@ Yukarıdaki çıktı da Node Public Key ve Consensus Public Key çıktılarını
 
 ![alt text](https://i.hizliresim.com/eg3om5z.png)
 
-Form için Fleek Discord'unda access-from kanalında aşağıda gösterildiği gibi bilgilerinizi girin. 
+Form için Fleek Discord'unda access-form kanalında aşağıda gösterildiği gibi bilgilerinizi girin. 
 
 
 ![alt text](https://i.hizliresim.com/7rehvjp.png)
@@ -116,6 +116,17 @@ lgtn run
 ```
 
 Şu an daha whitelist olmadığı için aşağıdaki gibi çıktı verecektir. 
+
+Node Public Key ve Consensus Public Key çıktısı
+
+```python
+lgtn keys show
+```
+
+![alt text](https://i.hizliresim.com/en9uqkx.png)
+
+
+
 
 ![alt text](https://i.hizliresim.com/9ad8z3c.png)
 
