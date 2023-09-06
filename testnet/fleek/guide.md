@@ -95,10 +95,16 @@ Form için Fleek Discord'unda access-form kanalında aşağıda gösterildiği g
 
 ![alt text](https://i.hizliresim.com/p2ywll6.png)
 
-Ağ başlatma, durdurma veya restart
+Ağ başlatma durdurma veya restart
 
 ```python
 systemctl start lightning
+```
+
+
+Durdurma veya restart
+
+```python
 systemctl stop lightning
 systemctl restart lightning
 ```
@@ -109,6 +115,8 @@ Status çıktısı
 ```python
 systemctl status lightning
 ```
+
+![alt text](https://i.hizliresim.com/697uy7s.png)
 
 Node çıkışı 
 
@@ -121,11 +129,6 @@ Diagnostics
 ```python
 tail -f /var/log/lightning/diagnostic.log
 ```
-
-Şu an takım formu daha kabul etmediği için yukarıdaki kontrol kodlarından sonra aşağıdaki gibi çıktılar çıkacaktır. 
-
-![alt text](https://i.hizliresim.com/6dwtcob.png)
-
 
 Node Public Key ve Consensus Public Key çıktısı
 
