@@ -117,6 +117,8 @@ lgtn run
 
 Şu an daha whitelist olmadığı için aşağıdaki gibi çıktı verecektir. 
 
+![alt text](https://i.hizliresim.com/9ad8z3c.png)
+
 Node Public Key ve Consensus Public Key çıktısı
 
 ```python
@@ -128,5 +130,5 @@ lgtn keys show
 
 
 
-![alt text](https://i.hizliresim.com/9ad8z3c.png)
+
 
