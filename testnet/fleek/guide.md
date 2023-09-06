@@ -106,20 +106,6 @@ tail -f /var/log/lightning/diagnostic.log
 ![alt text](https://i.hizliresim.com/6dwtcob.png)
 
 
-Form kabul edilip whitelist aldıktan sonra aşağıdaki işlemleri yapın.
-
-```python
-screen -S fleek
-```
-
-```python
-lgtn run
-```
-
-Şu an daha whitelist olmadığı için aşağıdaki gibi çıktı verecektir. 
-
-![alt text](https://i.hizliresim.com/9ad8z3c.png)
-
 Node Public Key ve Consensus Public Key çıktısı
 
 ```python
