@@ -95,12 +95,11 @@ Form için Fleek Discord'unda access-form kanalında aşağıda gösterildiği g
 
 ![alt text](https://i.hizliresim.com/p2ywll6.png)
 
-Ağ başlatma durdurma veya restart
+Ağ başlatma
 
 ```python
 systemctl start lightning
 ```
-
 
 Durdurma veya restart
 
@@ -108,7 +107,6 @@ Durdurma veya restart
 systemctl stop lightning
 systemctl restart lightning
 ```
-
 
 Status çıktısı
 
