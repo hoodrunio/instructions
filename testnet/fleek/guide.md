@@ -8,6 +8,7 @@
 - **5 Eylül 2023: Testnet Başlangıcı** 
 - **8 Eylül 23:00: Node Community Call**
 - **12 Eylül: Testnet Optimizasyonunun Kapatılması**
+- **14 Eylül:Geri bildirim, veri sonuçlarını ve kalıcı testnet spin-up tahminleri.**
 
 # Minimum Sistem Gereksinimleri
 
