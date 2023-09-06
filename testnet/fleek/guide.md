@@ -5,9 +5,9 @@
 İlk ağ oluşumuna, node kurulum testine ve protokol performans ölçümüne odaklanan 1 haftalık bir early alfa test ağı aşaması yürütecekler.
 12 Eylül'den önce her zaman kurabilirsiniz. Form gönderim ve onaylama olduğundan erken kurmakta fayda olacaktır.
 
-5 Eylül 2023: Testnet Başlangıcı /
-8 Eylül 23:00: Node Community Call /
-12 Eylül: Testnet Optimizasyonunun Kapatılması
+- **5 Eylül 2023: Testnet Başlangıcı** 
+- **8 Eylül 23:00: Node Community Call**
+- **12 Eylül: Testnet Optimizasyonunun Kapatılması**
 
 # Minimum Sistem Gereksinimleri
 
