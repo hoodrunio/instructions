@@ -1,6 +1,6 @@
 ![alt text](https://i.hizliresim.com/6980i8v.png)
 
-# Fleek Network Testnet: Phase {0}
+# Hatırlatma
 
 İlk ağ oluşumuna, node kurulum testine ve protokol performans ölçümüne odaklanan 1 haftalık bir early alfa test ağı aşaması yürütecekler.
 12 Eylül'den önce her zaman kurabilirsiniz. Form gönderim ve onaylama olduğundan erken kurmakta fayda olacaktır.
