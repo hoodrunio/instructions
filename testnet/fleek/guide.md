@@ -1,4 +1,4 @@
-![alt text](https://i.hizliresim.com/abfdtl5.png)
+![alt text](https://i.hizliresim.com/6980i8v.png)
 
 # Fleek Network Testnet: Phase {0}
 
