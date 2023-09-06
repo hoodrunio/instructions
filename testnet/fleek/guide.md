@@ -134,9 +134,6 @@ Node Public Key ve Consensus Public Key çıktısı
 lgtn keys show
 ```
 
-![alt text](https://i.hizliresim.com/en9uqkx.png)
-
-
 
 - **https://t.me/testnetrun**
 
