@@ -79,7 +79,7 @@ Ağ başlatma, durdurma veya restart
 systemctl start lightning
 systemctl stop lightning
 systemctl restart lightning
-```python
+```
 
 
 Status çıktısı
