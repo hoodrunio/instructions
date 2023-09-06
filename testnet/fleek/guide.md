@@ -129,6 +129,19 @@ lgtn keys show
 
 
 
+- **https://t.me/testnetrun**
+
+- **https://link3.to/testnetrun**
+
+- **https://www.youtube.com/@TestNetRun**
+
+- **https://testnet.run/**
+
+- **https://stake.testnet.run/**
+
+- **https://twitter.com/testnetrun**
+
+
 
 
 
