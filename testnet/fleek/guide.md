@@ -134,6 +134,11 @@ Node Public Key ve Consensus Public Key çıktısı
 lgtn keys show
 ```
 
+# Güncelleme 
+
+```python
+curl -sS https://get.fleek.network/update | bash
+```
 
 - **https://t.me/testnetrun**
 
