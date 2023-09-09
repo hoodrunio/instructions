@@ -167,7 +167,7 @@ curl -sS https://get.fleek.network/whitelist | bash
 ![alt text](https://i.hizliresim.com/6gqc6z5.png)
 
 
-Health Check
+# Health Check
 
 Eğer WL almışsanız aşağıdaki kodlar ile kontrol edin.
 
