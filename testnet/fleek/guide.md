@@ -62,6 +62,22 @@ Eğer 16GB RAM kullanırsanız aşağıdaki gibi bir hata alacaksınız. Enter y
 Eğer 32GB RAM kullanıyorsanız hata vermeyecek.
 
 
+Eğer aşagıdaki gibi ROOT  hatası alırsanız lgtn adında bir user oluşturun ve tekrar yukarıdaki fleek.network kodunu girin.
+
+![alt text](https://i.hizliresim.com/kly3wwh.png)
+
+```python
+adduser lgtn
+```
+
+```python
+usermod -aG sudo lgtn
+```
+
+```python
+su lgtn
+```
+
 ![alt text](https://i.hizliresim.com/tqz27hc.png)
 
 Kurulum biraz uzun sürebilir. Kurulum bittikten sonra firewall hatası alırsanız aşağıdaki gibi bir çıktı göreceksiniz.
@@ -139,6 +155,42 @@ lgtn keys show
 ```python
 curl -sS https://get.fleek.network/update | bash
 ```
+
+# Whitelist Kontrolü
+
+Eğer discord kanalında WL için etiketlenmişseniz aşağıdaki kodu girerek kontrol edin. Eğer hala WL değilsiniz derse yukarıdaki update kodunu girin restart atın ve tekrar deneyin.
+
+```python
+curl -sS https://get.fleek.network/whitelist | bash
+```
+
+![alt text](https://i.hizliresim.com/6gqc6z5.png)
+
+
+Health Check
+
+Eğer WL almışsanız aşağıdaki kodlar ile kontrol edin.
+
+```python
+curl -w "\p" localhost:4069/health
+```
+
+
+Çıktı: OK olmalıdır. 
+
+![alt text](https://i.hizliresim.com/iw85h50.png)
+
+```python
+curl -X POST -H "Content-Type: application/json" -d '{
+      "jsonrpc": "2.0",
+      "method": "flk_ping",
+      "params": [],
+      "id": 1
+    }' http://127.0.0.1:4069/rpc/v0
+```
+
+![alt text](https://i.hizliresim.com/q3iv3rf.png)
+
 
 - **https://t.me/testnetrun**
 
