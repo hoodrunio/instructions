@@ -1,7 +1,7 @@
 ![alt text](https://i.hizliresim.com/9w1u7aw.png)
 
 # ÖNEMLİ
-- **Bütün işlemleri yapmış ve hazırsanız formu doldurun.**
+- **Bütün işlemleri yaptıktan sonra RollApp listeleyebilirsiniz.**
 
 - **Portal RollApps** **https://portal.dymension.xyz/rollapps**
 
