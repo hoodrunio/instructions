@@ -3,9 +3,9 @@
 # ÖNEMLİ
 - **Bütün işlemleri yapmış ve hazırsanız formu doldurun.**
 
-- **Form** **https://dymension.typeform.com/RollAppListing**
-
 - **Portal RollApps** **https://portal.dymension.xyz/rollapps**
+
+- **TestNetRun RollApp** **https://portal.dymension.xyz/rollapp/mytestnetrunrollapp_3448-1**
 
 
 
