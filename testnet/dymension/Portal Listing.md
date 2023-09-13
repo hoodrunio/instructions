@@ -80,10 +80,11 @@ Yapıştırdığınız çıktıda değiştirecek olduğunuz yerler;
 
 chainName yerindeki RollApp ID'niz yerine portalda gösterilmesini istediğiniz bir isim girebilirsiniz.
 
-
+```python
 `"rpc": "http://sunucu-ipniz:26657"`
 `"rest": "http://sunucu-ipniz:1317"`
 `"rpc": "http://sunucu-ipniz.8545"`
+```
 
 50kb'dan az boyuta sahip jpeg veya png logonuz için logo yerlerinde aşağıdaki ssdeki gibi RollApp ID'niz ve logo uzantınıza göre düzenleyin.
 
