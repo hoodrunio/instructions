@@ -46,11 +46,11 @@ Bu puanlar, RollApps’in özel ödül havuzundaki emsallerine göre performans�
 
 2.: Aşağıdaki gerekli portların açık olduğundan emin olun.
 
-
-`RollApp RPC Endpoint (varsayılan 26657)`
-`Rest Endpoint (varsayılan 1317)`
-`JSON RPC Endpoint (varsayılan 8545. Yalnızca EVM RollApps ile ilgilidir)`
-
+```python
+RollApp RPC Endpoint (varsayılan 26657)
+Rest Endpoint (varsayılan 1317)
+JSON RPC Endpoint (varsayılan 8545. Yalnızca EVM RollApps ile ilgilidir)
+```
 
 3.: Faucet'i finanse edin ve RollApp jetonunuzun IBC transferini aşağıdaki komutla Dymension Hub musluğuna göndererek IBC bağlantısını test edin:
 
