@@ -46,11 +46,11 @@ Bu puanlar, RollApps’in özel ödül havuzundaki emsallerine göre performans�
 
 2.: Aşağıdaki gerekli portların açık olduğundan emin olun.
 
-```python
-RollApp RPC Endpoint (varsayılan 26657)
-Rest Endpoint (varsayılan 1317)
-JSON RPC Endpoint (varsayılan 8545. Yalnızca EVM RollApps ile ilgilidir)
-```
+
+`RollApp RPC Endpoint (varsayılan 26657)`
+`Rest Endpoint (varsayılan 1317)`
+`JSON RPC Endpoint (varsayılan 8545. Yalnızca EVM RollApps ile ilgilidir)`
+
 
 3.: Faucet'i finanse edin ve RollApp jetonunuzun IBC transferini aşağıdaki komutla Dymension Hub musluğuna göndererek IBC bağlantısını test edin:
 
@@ -80,16 +80,17 @@ Yapıştırdığınız çıktıda değiştirecek olduğunuz yerler;
 
 chainName yerindeki RollApp ID'niz yerine portalda gösterilmesini istediğiniz bir isim girebilirsiniz.
 
-```python
-"rpc": "http://sunucu-ipniz:26657"
-"rest": "http://sunucu-ipniz:1317"
-"rpc": "http://sunucu-ipniz.8545"
-```
+
+`"rpc": "http://sunucu-ipniz:26657"`
+`"rest": "http://sunucu-ipniz:1317"`
+`"rpc": "http://sunucu-ipniz.8545"`
+
 50kb'dan az boyuta sahip jpeg veya png logonuz için logo yerlerinde aşağıdaki ssdeki gibi RollApp ID'niz ve logo uzantınıza göre düzenleyin.
 
 Örnek Görsel
 
-![alt text](https://i.hizliresim.com/mlemveb.png)
+![alt text](https://i.hizliresim.com/ewit8ah.png)
+
 
 Buraya kadar yapmışsanız Bilgisayarınızda RollApp ID'niz ile bir klasör oluşturun. İçinde aşağıdaki dizinlere dikkat ederek json dosyasını ve logonuzu ekleyin.
 
