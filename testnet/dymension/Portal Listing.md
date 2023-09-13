@@ -47,8 +47,8 @@ Bu puanlar, RollApps’in özel ödül havuzundaki emsallerine göre performans�
 2.: Aşağıdaki gerekli portların açık olduğundan emin olun.
 
 
-`RollApp RPC Endpoint (varsayılan 26657)` /
-`Rest Endpoint (varsayılan 1317)` /
+`RollApp RPC Endpoint (varsayılan 26657)`
+`Rest Endpoint (varsayılan 1317)`
 `JSON RPC Endpoint (varsayılan 8545. Yalnızca EVM RollApps ile ilgilidir)`
 
 
@@ -81,8 +81,8 @@ Yapıştırdığınız çıktıda değiştirecek olduğunuz yerler;
 chainName yerindeki RollApp ID'niz yerine portalda gösterilmesini istediğiniz bir isim girebilirsiniz.
 
 
-`"rpc": "http://sunucu-ipniz:26657"` /
-`"rest": "http://sunucu-ipniz:1317"` /
+`"rpc": "http://sunucu-ipniz:26657"`
+`"rest": "http://sunucu-ipniz:1317"`
 `"rpc": "http://sunucu-ipniz.8545"`
 
 50kb'dan az boyuta sahip jpeg veya png logonuz için logo yerlerinde aşağıdaki ssdeki gibi RollApp ID'niz ve logo uzantınıza göre düzenleyin.
