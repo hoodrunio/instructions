@@ -42,7 +42,7 @@ Bu puanlar, RollApps’in özel ödül havuzundaki emsallerine göre performans�
 
 # Portal Listeleme
 
-1: Bir RollApp'i başarıyla dağıttığınızdan ve çalıştırdığınızdan emin olun. (roller run çıktısı active olmalı)
+1: Bir RollApp'i başarıyla dağıttığınızdan ve çalıştırdığınızdan emin olun. (roller run çıktısı `active` olmalı)
 
 2.: Aşağıdaki gerekli portların açık olduğundan emin olun.
 
