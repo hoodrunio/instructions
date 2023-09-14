@@ -76,6 +76,9 @@ DYM token transfer işlemlerinden sonra Keplr cüzdanınızda bulunan `TNR-NDST-
 Bu sefer işlemlerin tersini yapmak için Source chain -> Metemask, Destination Chain -> Keplr olarak seçin.
 Bu işlemi yaparken `TestNetRun-Nodeist-CoreNode` chainlerinin her biri için metamask chain ekleme işlemini onaylayın.
 
+
+![alt text](https://i.hizliresim.com/n9jdb1l.png)
+
 ![alt text](https://i.hizliresim.com/7ycno8f.png)
 
 
