@@ -30,7 +30,7 @@ Eğer RollApp-Fam rolünüz varsa aşağıdaki linkler aracılığı ile sizde R
 
 - **Portal Listing** **https://github.com/testnetrunn/instructions/blob/main/testnet/dymension/Portal%20Listing.md**
 
-## Faucet
+# Faucet
 
 DYM token fauceti için Discord froopyland-faucet (rollapp fam rollerine açık) kanalına aşağıdaki kodda dym cüzdan adresinizi yazarak faucet isteyin.
 
@@ -57,7 +57,7 @@ $request  cüzdan-adresiniz nodeist_6452664-1
 ![alt text](https://i.hizliresim.com/6nq1c2c.png)
 
 
-## IBC Transfer
+# IBC Transfer
 
 ### Keplr -> Metamask İşlemleri
 
@@ -88,7 +88,7 @@ birini seçerek DYM token yada `TNR-NDST-CRN` tokenlarından chainler arası tra
 ![alt text](https://i.hizliresim.com/s0tly3t.png)
 
 
-## Stake
+# Stake
 
 Stake işlemi için `TestNetRun-Nodeist-CoreNode` RollApp sayfalarındaki (linkler aşağıda) Staking bölümüne gelerek hub_sequencer'a her RollApp'in kendi tokeninden Delegate sekmesinden stake edin.
 
