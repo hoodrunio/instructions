@@ -64,7 +64,7 @@ Celestia adresi için celestia-faucet
 
 
 ```python
-roller register
+roller tx register
 ```
 
 ![alt text](https://i.hizliresim.com/q0wmyxb.png)
