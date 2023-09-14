@@ -1,5 +1,35 @@
 ![alt text](https://i.hizliresim.com/ntf58cb.png)
 
+
+## RollApp Ödülleri
+
+### En İyi 10 RollApps
+
+İlk 10 RollApp’e ödül havuzunun %10'u tahsis edilecektir. Hayal gücünüzü özgürce çalıştırın. RollApps ultra hızlı, IBC bağlantılı ve VM-agnostiktir.
+
+Geliştiriciler, EVM akıllı sözleşmelerini RollApps’lerine kolayca dağıtabilirler. Mevcut uygulamaları konuşlandırılmış RollApp’lere taşımak sadece birkaç tıklama kadar kolay olabilir. Ek olarak, Cosmos SDK uygulamaları bir RollApp olarak çalışacak şekilde taşınabilir.
+
+En İyi 10 RollApps için oylama, insanlara inşa etmek için yeterli zaman vermek amacıyla Teşvikli Testnet’in sonuna yakın bir zamanda özel bir şekilde yapılacaktır. Oylama dönemlerinin başlangıcı ve bitişi ve uygun oy verenler hakkında ihtiyacınız olan tüm bilgilerle sizi döngü içinde tutacağımıza söz veriyoruz. Üstüne üstlük, En İyi 10 RollApp için ödüller ve diğer tüm ödüller, herhangi bir kilitlenme süresi olmaksızın, oluşumdan sonra anında dağıtılacaktır!
+
+## En İyi 10 Ödül Üç Grup Halinde Dağıtılacaktır:
+
+1. Grup: En iyi 3 RollApp, her biri 200 bin DYM’lik eşit bir pay alacaktır.
+
+2. Grup: 4, 5 ve 6. sıradaki RollApps’lerin her biri 100K DYM’den eşit pay alacaktır.
+
+3. Grup: Son 4 yarışmacının her biri 25 bin DYM’den eşit pay alacaktır.
+
+
+Dağıtımcılar Portal üzerinde kendi RollApps kontrol panellerine sahip olacaklardır. Portalda ilk kez listelendiğinde, RollApp aktif olmayan bir ödül durumunda başlayacaktır.
+Ödül akışına uygunluk sürecini tamamlamak için, RollApp dağıtıcıları Discord kanalına yönlendirilir ve burada RollApp yayınlama sürecini takip etmeleri istenir.
+Onaylandıktan sonra RollApp ödülleri yayınlanmaya başlayacaktır. RollApp Dağıtıcıları tahmini ödüllerini RollApp kontrol panelleri üzerinden takip edebileceklerdir.
+
+Eğer RollApp-Fam rolünüz varsa aşağıdaki linkler aracılığı ile sizde RollApp listeleyebilirsiniz.
+
+- **Roller Kurulumu** **https://github.com/testnetrunn/instructions/blob/main/testnet/dymension/Roller.md**
+
+- **Portal Listing** **https://github.com/testnetrunn/instructions/blob/main/testnet/dymension/Portal%20Listing.md**
+
 ## Faucet
 
 DYM token fauceti için Discord froopyland-faucet (rollapp fam rollerine açık) kanalına aşağıdaki kodda dym cüzdan adresinizi yazarak faucet isteyin.
@@ -70,4 +100,15 @@ Stake işlemi için `TestNetRun-Nodeist-CoreNode` RollApp sayfalarındaki (linkl
 
 
 ![alt text](https://i.hizliresim.com/m4bv8ro.png)
+
+
+- **https://t.me/testnetrun**
+
+- **https://link3.to/testnetrun**
+
+- **https://www.youtube.com/@TestNetRun**
+
+- **https://testnet.run/**
+
+- **https://stake.testnet.run/**
 
