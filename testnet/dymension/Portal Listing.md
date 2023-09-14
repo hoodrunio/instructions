@@ -54,7 +54,7 @@ Rest Endpoint (varsayılan 1317)
 JSON RPC Endpoint (varsayılan 8545. Yalnızca EVM RollApps ile ilgilidir)
 ```
 
-3.: Faucet'i finanse edin ve RollApp jetonunuzun IBC transferini aşağıdaki komutla Dymension Hub musluğuna göndererek IBC bağlantısını test edin:
+3.: Faucet'i finanse edin ve RollApp tokenınızın IBC transferini aşağıdaki komutla Dymension Hub faucet cüzdan adresine göndererek IBC bağlantısını test edin:
 
 Dymension Hub faucet adresini aşağıdaki kodu kullanarak kendi tokeniniz ile finanse edin. 
 
