@@ -126,8 +126,10 @@ Bu işlemden sonra Discord kanalındaki list-your-rollapp kanalına aşağıdaki
 ![alt text](https://i.hizliresim.com/5nsnw91.png)
 
 Bu işlemden sonra yoğunluğa göre açmış olduğunuz kanaldan takım sizinle iletişime geçecek. İletişim zamanında sizden göndermiş olduğunuz PR'ın linkini isteyecekler.
-Gerekli kontroller yapıldıktan sonra RollApp'iniz portal la listelenecek.
+Gerekli kontroller yapıldıktan sonra RollApp'iniz portalda listelenecek.
 
+
+- **Twitter** **https://x.com/testnetrun/status/1702116692195770745?s=20**
 
 - **https://t.me/testnetrun**
 
