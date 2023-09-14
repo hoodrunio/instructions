@@ -32,10 +32,10 @@ Onaylandıktan sonra RollApp ödülleri yayınlanmaya başlayacaktır. RollApp D
 
 ## Ödüllerin nasıl biriktirildiğine dair bir özet:
 
-Uptime: Dymension Hub’daki durum güncellemeleri kontrol edilerek periyodik olarak ölçülecektir.
+`Uptime: Dymension Hub’daki durum güncellemeleri kontrol edilerek periyodik olarak ölçülecektir.
 Aktif RPC: periyodik olarak kontrol edilecektir. RollApp RPC uç noktalarınızı açığa çıkarmak ve bunları listelemenizde sunmak ödülleri önemli ölçüde artıracaktır.
 Traction Boost: RollApps’e, elde ettikleri topluluk katılımı düzeyine göre traction boost desteği verilecektir.
-Bu puanlar, RollApps’in özel ödül havuzundaki emsallerine göre performansını ölçmek için kullanılacaktır.
+Bu puanlar, RollApps’in özel ödül havuzundaki emsallerine göre performansını ölçmek için kullanılacaktır.`
 
 - **Genel Makale** **https://medium.com/@dymension/froopyland-is-live-8bf21e9d7046**
 
