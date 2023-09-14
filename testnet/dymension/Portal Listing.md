@@ -76,6 +76,10 @@ RollApp ID yerine kendi rollappinizin ismini girin.
 
 Sunucu üzerinden aşağıdaki kod ile alacağınız çıktıyı parantezler dahil koplayayıp bilgisayarda kendi RollApp ID'niz ile oluşturmuş olduğunuz json dosyasına yapıştırın.
 
+```python
+roller config export
+```
+
 ![alt text](https://i.hizliresim.com/aovkbkh.png)
 
 Yapıştırdığınız çıktıda değiştirecek olduğunuz yerler;
