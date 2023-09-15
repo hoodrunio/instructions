@@ -79,7 +79,9 @@ Bu işlemi yaparken `TestNetRun-Nodeist-CoreNode` chainlerinin her biri için me
 
 ![alt text](https://i.hizliresim.com/n9jdb1l.png)
 
-![alt text](https://i.hizliresim.com/7ycno8f.png)
+
+
+![alt text](https://i.hizliresim.com/c704wfm.png)
 
 
 
