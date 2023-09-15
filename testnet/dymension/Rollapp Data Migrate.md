@@ -170,8 +170,6 @@ tail -n 100 -f $HOME/.roller/relayer/relayer.log
 
 Taşıma işleminden sonra;
 
-Roller İkili Dosyaları
-
 ```python
 curl -L https://dymensionxyz.github.io/roller/install.sh | bash
 ```
