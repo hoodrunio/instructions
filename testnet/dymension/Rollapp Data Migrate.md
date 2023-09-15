@@ -138,6 +138,19 @@ sudo systemctl start sequencer
 sudo systemctl start relayer
 ```
 
+Kontrol
+
+```python
+sudo systemctl status da-light-client
+sudo systemctl status sequencer
+sudo systemctl status relayer
+```
+
+
+Hepsinin çıktısı `active (running)` olmalıdır.
+
+
+
 Loglar
 
 ```python
