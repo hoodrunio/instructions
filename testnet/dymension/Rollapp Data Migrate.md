@@ -33,6 +33,10 @@ cd _tar
 $(which python3) -m http.server 8150
 ```
 
+
+![alt text](https://i.hizliresim.com/tbi26en.png)
+
+
 ## Yeni Sunucuya Aktarım
 
 Backup İndirme 
@@ -41,6 +45,10 @@ Backup İndirme
 cd $HOME
 wget <eski-sunucunun-ipsi>:8150/roller_backup.tar
 ```
+
+![alt text](https://i.hizliresim.com/mr0pted.png)
+
+
 ```python
 tar xvf roller_backup.tar
 ```
