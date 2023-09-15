@@ -1,6 +1,6 @@
 ![alt text](https://i.hizliresim.com/9w1u7aw.png)
 
-
+İki Farklı yeni sunucu da çalıştırma yönyemi var. 2. Yöntem en altta (roller run)
 
 ## Eski Sunucudan Veri Yedekleme
 
