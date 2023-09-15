@@ -1,1 +1,157 @@
+![alt text](https://i.hizliresim.com/9w1u7aw.png)
+
+
+
+## Eski Sunucudan Veri Yedekleme
+
+```python
+sudo systemctl stop da-light-client && journalctl -u da-light-client -o cat
+```
+
+```python
+sudo systemctl stop sequencer && journalctl -u sequencer -o cat
+```
+
+```python
+sudo systemctl stop relayer && journalctl -u relayer -o cat
+```
+
+```python
+sudo systemctl disable da-light-client
+sudo systemctl disable sequencer
+sudo systemctl disable relayer
+```
+
+```python
+cd $HOME
+mkdir -p $HOME/_tar
+tar cvf $HOME/_tar/roller_backup.tar ./.roller
+```
+
+```python
+cd _tar
+$(which python3) -m http.server 8150
+```
+
+## Yeni Sunucuya Aktarım
+
+Backup İndirme 
+
+```python
+cd $HOME
+wget <eski-sunucunun-ipsi>:8150/roller_backup.tar
+```
+```python
+tar xvf roller_backup.tar
+```
+
+Roller İkili Dosyaları
+
+```python
+curl -L https://dymensionxyz.github.io/roller/install.sh | bash
+```
+
+Service Oluşturma
+
+```python
+tee $HOME/da-light-client.service > /dev/null <<EOF
+[Unit]
+Description=da-light-client
+After=network-online.target
+[Service]
+User=$USER
+ExecStart=/usr/local/bin/roller da-light-client start
+Restart=on-failure
+RestartSec=10
+LimitNOFILE=65535
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+
+
+```python
+tee $HOME/sequencer.service > /dev/null <<EOF
+[Unit]
+Description=sequencer
+After=network-online.target
+[Service]
+User=$USER
+ExecStart=/usr/local/bin/roller sequencer start
+Restart=on-failure
+RestartSec=10
+LimitNOFILE=65535
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+
+
+```python
+tee $HOME/relayer.service > /dev/null <<EOF
+[Unit]
+Description=relayer
+After=network-online.target
+[Service]
+User=$USER
+ExecStart=/usr/local/bin/roller relayer start
+Restart=on-failure
+RestartSec=10
+LimitNOFILE=65535
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+
+```python
+sudo mv $HOME/da-light-client.service /etc/systemd/system/
+sudo mv $HOME/sequencer.service /etc/systemd/system/
+sudo mv $HOME/relayer.service /etc/systemd/system/
+```
+
+```python
+sudo systemctl enable da-light-client
+sudo systemctl enable sequencer
+sudo systemctl enable relayer
+```
+
+```python
+sudo systemctl daemon-reload
+```
+
+Sistem Başlatma
+
+```python
+sudo systemctl start da-light-client
+sudo systemctl start sequencer
+sudo systemctl start relayer
+```
+
+Loglar
+
+```python
+tail -n 100 -f $HOME/.roller/da-light-node/light_client.log
+```
+
+```python
+tail -n 100 -f $HOME/.roller/rollapp/rollapp.log
+```
+
+```python
+tail -n 100 -f $HOME/.roller/relayer/relayer.log
+```
+
+- **https://t.me/testnetrun**
+
+- **https://link3.to/testnetrun**
+
+- **https://www.youtube.com/@TestNetRun**
+
+- **https://testnet.run/**
+
+- **https://stake.testnet.run/**
+
+
+
+
 
