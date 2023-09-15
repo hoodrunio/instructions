@@ -46,7 +46,8 @@ cd $HOME
 wget <eski-sunucunun-ipsi>:8150/roller_backup.tar
 ```
 
-![alt text](https://i.hizliresim.com/mr0pted.png)
+![alt text](https://i.hizliresim.com/ibqvjmi.png)
+
 
 
 ```python
