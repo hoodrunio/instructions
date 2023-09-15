@@ -5,15 +5,15 @@
 ## Eski Sunucudan Veri Yedekleme
 
 ```python
-sudo systemctl stop da-light-client && journalctl -u da-light-client -o cat
+sudo systemctl stop da-light-client
 ```
 
 ```python
-sudo systemctl stop sequencer && journalctl -u sequencer -o cat
+sudo systemctl stop sequencer
 ```
 
 ```python
-sudo systemctl stop relayer && journalctl -u relayer -o cat
+sudo systemctl stop relayer
 ```
 
 ```python
