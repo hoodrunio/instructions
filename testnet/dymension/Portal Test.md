@@ -92,7 +92,7 @@ Metamask `TestNetRun-Nodeist-CoreNode` chainlerinden birini seçtikten sonra Des
 birini seçerek DYM token yada `TNR-NDST-CRN` tokenlarından chainler arası transfer yapabilirsiniz.
 
 
-![alt text](https://i.hizliresim.com/s0tly3t.png)
+
 
 ![alt text](https://i.hizliresim.com/c704wfm.png)
 
