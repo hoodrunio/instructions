@@ -62,7 +62,7 @@ Roller İkili Dosyaları
 curl -L https://dymensionxyz.github.io/roller/install.sh | bash
 ```
 
-Service Oluşturma
+Service Oluşturma (eğer roller run ile kuracaksanız en aşağıya bakın)
 
 ```python
 tee $HOME/da-light-client.service > /dev/null <<EOF
@@ -163,6 +163,29 @@ tail -n 100 -f $HOME/.roller/rollapp/rollapp.log
 
 ```python
 tail -n 100 -f $HOME/.roller/relayer/relayer.log
+```
+
+
+## Roller Run
+
+Taşıma işleminden sonra;
+
+Roller İkili Dosyaları
+
+```python
+curl -L https://dymensionxyz.github.io/roller/install.sh | bash
+```
+
+```python
+roller migrate
+```
+
+```python
+screen -S roller
+```
+
+```python
+roller run
 ```
 
 - **https://t.me/testnetrun**
