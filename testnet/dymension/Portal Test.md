@@ -97,13 +97,13 @@ birini seçerek DYM token yada `TNR-NDST-CRN` tokenlarından chainler arası tra
 
 ## Stake
 
-Stake işlemi için `TestNetRun-Nodeist-CoreNode` RollApp sayfalarındaki (linkler aşağıda) Staking bölümüne gelerek hub_sequencer'a her RollApp'in kendi tokeninden Delegate sekmesinden stake edin.
+Stake işlemi için `TestNetRun-Nodeist-CoreNode` RollApp sayfalarındaki (linkler aşağıda) `Staking` bölümüne gelerek hub_sequencer'a her RollApp'in kendi tokeninden `Delegate` sekmesinden stake edin. Sonradan `Undelegate` veya `Redelegate` edebilirsiniz.
 
-- **TestNetRun** **https://portal.dymension.xyz/rollapp/mytestnetrunrollapp_3448-1**
+- **`TestNetRun`** **https://portal.dymension.xyz/rollapp/mytestnetrunrollapp_3448-1**
 
-- **CoreNode** **https://portal.dymension.xyz/rollapp/corenode_1303285-1**
+- **`CoreNode`** **https://portal.dymension.xyz/rollapp/corenode_1303285-1**
 
-- **Nodeist** **https://portal.dymension.xyz/rollapp/nodeist_6452664-1**
+- **`Nodeist`** **https://portal.dymension.xyz/rollapp/nodeist_6452664-1**
 
 
 ![alt text](https://i.hizliresim.com/m4bv8ro.png)
