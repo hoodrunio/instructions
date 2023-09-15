@@ -36,6 +36,8 @@ $(which python3) -m http.server 8150
 
 ![alt text](https://i.hizliresim.com/tbi26en.png)
 
+CTRL-C vb. ile durdurmayın. Durdurursanız bağlantı kesilir. (Yeni sunucuya taşıma işlemi bitince durdurun.)
+
 
 ## Yeni Sunucuya Aktarım
 
