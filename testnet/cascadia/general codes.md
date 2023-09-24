@@ -1,4 +1,4 @@
-### Key
+## Key
 
 Add New Key
 
@@ -32,7 +32,7 @@ Wallet Balance
 cascadiad q bank balances $(cascadiad keys show wallet -a)
 ```
 
-### Validator
+## Validator
 
 Edit Validator
 
@@ -96,7 +96,7 @@ cascadiad tx bank send wallet YOUR_TO_WALLET_ADDRESS 1000000aCC --from wallet --
 ```
 
 
-### Service Management
+## Service Management
 
 Reload Services
 
