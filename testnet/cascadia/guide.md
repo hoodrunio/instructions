@@ -103,6 +103,15 @@ sudo systemctl restart cascadiad && sudo journalctl -u cascadiad -f -o cat
 ```
 
 
+Create or Recover Wallet
+
+```python
+cascadiad keys add <walletname>
+  OR
+cascadiad keys add <walletname> --recover
+```
+
+
 ```python
 cascadiad tx staking create-validator \
   --amount "10000000000000000000"aCC \
