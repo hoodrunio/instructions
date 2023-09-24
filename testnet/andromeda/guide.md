@@ -46,7 +46,7 @@ wget -O $HOME/.andromedad/config/genesis.json "https://raw.githubusercontent.com
 ```
 
 ```python
-wget -O $HOME/.andromedad/config/addrbook.json "https://raw.githubusercontent.com/testnetrunn/instructions/main/testnet/andromeda/addrbook.json""
+wget -O $HOME/.andromedad/config/addrbook.json "https://raw.githubusercontent.com/testnetrunn/instructions/main/testnet/andromeda/addrbook.json"
 ```
 
 ```python
