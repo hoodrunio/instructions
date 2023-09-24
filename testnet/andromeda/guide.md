@@ -66,7 +66,7 @@ After=network-online.target
 
 [Service]
 User=$USER
-ExecStart=$(which andromedad) start
+ExecStart=$(which andromedad) start --chain-id galileo-3
 Restart=on-failure
 RestartSec=3
 LimitNOFILE=65535
@@ -97,10 +97,11 @@ indexer="null" && \
 sed -i -e "s/^indexer *=.*/indexer = \"$indexer\"/" $HOME/.andromedad/config/config.toml
 ```
 
+```python
 andromedad keys add <walletname>
   OR
 andromedad keys add <walletname> --recover
-
+```
 
 ```python
 sudo systemctl daemon-reload
