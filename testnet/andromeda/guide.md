@@ -66,7 +66,7 @@ After=network-online.target
 
 [Service]
 User=$USER
-ExecStart=$(which andromedad) start --chain-id galileo-3
+ExecStart=$(which andromedad) start
 Restart=on-failure
 RestartSec=3
 LimitNOFILE=65535
