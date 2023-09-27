@@ -1,1 +1,1 @@
-![alt text](https://i.hizliresim.com/b3aaz9i.png)
+![alt text](https://i.hizliresim.com/bw0rh5z.png)
