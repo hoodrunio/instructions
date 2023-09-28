@@ -121,6 +121,52 @@ Buradaki görevleri yapın. Karşılığında metamask adresinize $tSQD gelecek 
 # Hatalar (stuck, error, RPC)
 
 
+Alchemy yada Infura üzerinden RPC eklemek için siteye kayıt olduktan sonra aşağıdaki gibi RPC oluşturun.
+
+![alt text](https://i.hizliresim.com/10ivlse.png)
+
+
+
+`API key`'e bastığınızda karşınıza çıkan yerden https olanı kullanacaksınız.
+
+![alt text](https://i.hizliresim.com/jnhb538j.png)
+
+
+Buradaki linki ister sftp bağlantısı ile isterseniz sunucu üzerinden gerekli dosya içerisine ekleyin. 
+
+Sunucu üzerinden nano `/root/adınız/src/processor.ts` 
+
+adınız yazan yere dashboardda belirlediğiniz squidname'inizi girin.
+
+Aşağıdaki chain yerine Alchemy yada Infuradan aldığınız https olan link ile değiştirdikten sonrs CTRL-X+Y yapın.
+
+![alt text](https://i.hizliresim.com/kx45h4u.png)
+
+
+`SFTP` bağlantısı ile yapacaksanız winscp vb. ile bağlandıktan sonra `/root/adınız/src/processor.ts` dizininde yukarıdaki ss'deki gibi chain
+yerini değiştirin.
+
+![alt text](https://i.hizliresim.com/rm0gqd4.png)
+
+
+Bundan sonra tekrar deploy etmeniz gerekiyor
+
+```python
+sqd deploy --org adınız ./adınız
+```
+
+Loglara bakmak için
+
+```python
+sqd logs adınız@v1
+```
+
+Explorer
+
+```python
+sqd explorer
+```
+
 
 
 
