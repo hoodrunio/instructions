@@ -1,7 +1,7 @@
 ![alt text](https://i.hizliresim.com/bw0rh5z.png)
 
 
-## Genel Bakış
+# Genel Bakış
 
 - **Program: Subsquid Genel Testnet ( Phase 1 ve 2 )** 
 - **Katılım Kriterleri: Aşağıdaki Uygunluk bölümüne tabidir** 
@@ -99,7 +99,7 @@ sqd restart isim@v..
 ```
 
 
-## Görevler
+# Görevler
 
 Node kurulumunun yanında görevleri de yapabilirsiniz.
 
