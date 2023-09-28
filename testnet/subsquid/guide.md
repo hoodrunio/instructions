@@ -78,6 +78,12 @@ Her şey doğru ise aşağıdaki gibi çıktı görmelisiniz.
 ![alt text](https://i.hizliresim.com/qgfokeg.png)
 
 
+<a href="https://app.subsquid.io/squids/">Dashboard</a> üzerinden baktığınızda ilk senkronizasyon olacak.
+
+![alt text](https://i.hizliresim.com/hb1u9iq.png)
+
+
+
 
 
 
