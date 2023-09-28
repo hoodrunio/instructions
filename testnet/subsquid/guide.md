@@ -112,6 +112,11 @@ Buradaki görevleri yapın. Karşılığında metamask adresinize $tSQD gelecek 
 ![alt text](https://i.hizliresim.com/j0xh36b.png)
 
 
+- **Zealy** **https://zealy.io/c/subsquid/**
+
+- **Galxe** **https://galxe.com/subsquid/**
+
+
 
 
 
