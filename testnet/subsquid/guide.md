@@ -86,6 +86,8 @@ Her şey doğru ise aşağıdaki gibi çıktı görmelisiniz.
 
 ![alt text](https://i.hizliresim.com/hb1u9iq.png)
 
+![alt text](https://i.hizliresim.com/e58bcgy.png)
+
 Eğer stuck durumuna düşerseniz genellikle portlar ile alakalıdır. (sıfır hetzner sunucu da stuck verdi)
 
 `ufw disable`  yaptıktan sonra restart atın.
