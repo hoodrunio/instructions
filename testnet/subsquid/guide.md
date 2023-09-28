@@ -75,8 +75,6 @@ Aşağıdaki çıktılar sizin dashboardda giridğiniz kodlardan sonra alacağı
 Her şey doğru ise aşağıdaki gibi çıktı görmelisiniz.
 
 
-![alt text](https://i.hizliresim.com/b7u72s2.png)
-
 ![alt text](https://i.hizliresim.com/qgfokeg.png)
 
 
