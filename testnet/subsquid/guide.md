@@ -20,7 +20,7 @@
 
 
 
-<a href="https://coinlist.co/subsquid-testnet">Diğer Tüm Bilgiler</a>
+<a href="https://coinlist.co/subsquid-testnet">Coinlist</a>
 
 İlk formu doldurmalısınız. (Varsa Coinlist hesabınızın bağlı olduğu mail ile formu doldurun.)
 
