@@ -5,7 +5,7 @@
 
 - **Program: Subsquid Genel Testnet ( Phase 1 ve 2 )** 
 - **Katılım Kriterleri: Aşağıdaki Uygunluk bölümüne tabidir** 
-- **Katılım Sınırı: Node Runners: Uygulama yoluyla seçilen en fazla 500 katılımcı; `en üst sıradaki 133 node` ödüller için uygun olacaktır.** 
+- **Katılım Sınırı: Node Runners: Uygulama yoluyla seçilen en fazla `500` katılımcı; `en üst sıradaki 133 node` ödüller için uygun olacaktır.** 
 
 - **Diğer Testnet Katılımcıları: Sınırsız; üst sıralarda yer alan `4.000` ödül için uygun olacak** 
 - **Kayıt Son Tarihine Giriş:	Son tarih yok; Düğüm koşucusu başvuruları sürekli olarak gözden geçirilecektir - güncellemeler için Subsquid Discord'u kontrol edin** 
