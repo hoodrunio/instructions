@@ -5,12 +5,16 @@
 
 - **Program: Subsquid Genel Testnet ( Phase 1 ve 2 )** 
 - **Katılım Kriterleri: Aşağıdaki Uygunluk bölümüne tabidir** 
-- **Katılım Sınırı: Node Runners: Uygulama yoluyla seçilen en fazla 500 katılımcı; en üst sıradaki 133 node ödüller için uygun olacaktır.** 
+- **Katılım Sınırı: Node Runners: Uygulama yoluyla seçilen en fazla 500 katılımcı; `en üst sıradaki 133 node` ödüller için uygun olacaktır.** 
 
-- **Diğer Testnet Katılımcıları: Sınırsız; üst sıralarda yer alan 4.000 ödül için uygun olacak** 
+- **Diğer Testnet Katılımcıları: Sınırsız; üst sıralarda yer alan `4.000` ödül için uygun olacak** 
 - **Kayıt Son Tarihine Giriş:	Son tarih yok; Düğüm koşucusu başvuruları sürekli olarak gözden geçirilecektir - güncellemeler için Subsquid Discord'u kontrol edin** 
 - **Zaman çizelgesi:	Genel testnet programının ~ 4 ay sürmesi beklenirken, Aşama 1 ve 2'nin sırasıyla ~ 60 gün sürmesi beklenmektedir. Zaman çizelgesi yalnızca Subsquid'in takdirine bağlı olarak değişebilir.** 
-- **Tahsis Edilen Ödüller: 	Toplam token arzının ~% 2'sini temsil eden 26.600.000 SQD**
+- **Tahsis Edilen Ödüller: 	Toplam token arzının ~% 2'sini temsil eden `26.600.000 SQD`**
+
+- **Önemli: Bu node kurulumu ve form ilk aşamada başvuru içindir. Seçim yapıldığında size token gönderilecek.**
+
+
 
 
 
@@ -91,6 +95,22 @@ Restart yerinde dashboardda gördüğünüz isim@v.. nameinizi de girerek aşağ
 ```python
 sqd restart isim@v..
 ```
+
+
+## Görevler
+
+Node kurulumunun yanında görevleri de yapabilirsiniz.
+
+Bunun için <a href="https://app.subsquid.io/squids/">Dashboard</a> üzerinde sağ üstten Switch the Network yaparak metamask'a Arbitrum Goerli ağını ekleyin.
+
+![alt text](https://i.hizliresim.com/2cb9nuv.png)
+
+Buradaki görevleri yapın. Karşılığında metamask adresinize $tSQD gelecek ve lider tablosunda ilerleyeceksiniz. (Sıralamada ilk 4000 ödül alacak)
+
+![alt text](https://i.hizliresim.com/j0xh36b.png)
+
+
+
 
 
 
