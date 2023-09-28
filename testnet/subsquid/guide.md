@@ -58,6 +58,14 @@ sudo apt-get install -y nodejs
 
 Bundan sonraki kodları <a href="https://app.subsquid.io/squids/">Dashboard</a> giriş yaptığınızda verecek. Squid Name yerine bir isim verin. (küçük harf kullanın)
 
+Aşağıdaki çıktılar sizin dashboardda giridğiniz kodlardan sonra alacağınız çıktılardır.
+
+![alt text](https://i.hizliresim.com/1pmes4t.png)
+
+
+![alt text](https://i.hizliresim.com/bv7w4pg.png)
+
+
 ![alt text](https://i.hizliresim.com/9p6sbk5.png)
 
 
