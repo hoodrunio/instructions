@@ -136,7 +136,7 @@ Alchemy yada Infura üzerinden RPC eklemek için siteye kayıt olduktan sonra a�
 
 Buradaki linki ister sftp bağlantısı ile isterseniz sunucu üzerinden gerekli dosya içerisine ekleyin. 
 
-Sunucu üzerinden nano `/root/adınız/src/processor.ts` 
+Sunucu üzerinden `nano /root/adınız/src/processor.ts` 
 
 adınız yazan yere dashboardda belirlediğiniz squidname'inizi girin.
 
