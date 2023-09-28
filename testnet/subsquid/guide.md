@@ -129,7 +129,9 @@ Alchemy yada Infura üzerinden RPC eklemek için siteye kayıt olduktan sonra a�
 
 `API key`'e bastığınızda karşınıza çıkan yerden https olanı kullanacaksınız.
 
-![alt text](https://i.hizliresim.com/jnhb538j.png)
+![alt text](https://i.hizliresim.com/cpgb3a0.png)
+
+
 
 
 Buradaki linki ister sftp bağlantısı ile isterseniz sunucu üzerinden gerekli dosya içerisine ekleyin. 
