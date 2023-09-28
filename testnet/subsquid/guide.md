@@ -16,7 +16,7 @@
 
 <a href="https://coinlist.co/subsquid-testnet">Diğer Tüm Bilgiler</a>
 
-İlk formu doldurmalısınız.
+İlk formu doldurmalısınız. (Varsa Coinlist hesabınızın bağlı olduğu mail ile formu doldurun.)
 
 <a href="https://subsquid.deform.cc/testnetnodeapplication/">Başvuru Formu</a>
 
@@ -32,6 +32,33 @@
 
 160GB Disk'te yeterli olacaktır.
 
+```python
+sudo apt update -y && sudo apt upgrade -y
+```
+
+```python
+apt install npm
+```
+
+```python
+sudo npm install -g npm@10.1.0
+```
+
+```python
+curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+```
+
+![alt text](https://i.hizliresim.com/6mn2dae.png)
+
+60sn bekleyin sonra kurulum devam edecek.
+
+```python
+sudo apt-get install -y nodejs
+```
+
+Bundan sonraki kodları <a href="https://app.subsquid.io/squids/">Dashboard</a> giriş yaptığınızda verecek. Squid Name yerine bir isim verin. (küçük harf kullanın)
+
+![alt text](https://i.hizliresim.com/9p6sbk5.png)
 
 
 
