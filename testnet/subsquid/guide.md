@@ -10,5 +10,9 @@
 - **Diğer Testnet Katılımcıları: Sınırsız; üst sıralarda yer alan 4.000 ödül için uygun olacak** 
 - **Kayıt Son Tarihine Giriş:	Son tarih yok; Düğüm koşucusu başvuruları sürekli olarak gözden geçirilecektir - güncellemeler için Subsquid Discord'u kontrol edin** 
 - **Zaman çizelgesi:	Genel testnet programının ~ 4 ay sürmesi beklenirken, Aşama 1 ve 2'nin sırasıyla ~ 60 gün sürmesi beklenmektedir. Zaman çizelgesi yalnızca Subsquid'in takdirine bağlı olarak değişebilir.** 
-- **Tahsis Edilen Ödüller: 	Toplam token arzının ~% 2'sini temsil eden 26.600.000 SQD** 
+- **Tahsis Edilen Ödüller: 	Toplam token arzının ~% 2'sini temsil eden 26.600.000 SQD**
+
+
+
+<a href="https://coinlist.co/subsquid-testnet">Diğer tüm bilgiler</a>
 
