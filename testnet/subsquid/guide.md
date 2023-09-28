@@ -14,5 +14,24 @@
 
 
 
-<a href="https://coinlist.co/subsquid-testnet">Diğer tüm bilgiler</a>
+<a href="https://coinlist.co/subsquid-testnet">Diğer Tüm Bilgiler</a>
+
+İlk formu doldurmalısınız.
+
+<a href="https://subsquid.deform.cc/testnetnodeapplication/">Başvuru Formu</a>
+
+<a href="https://app.subsquid.io/squids/">Dashboard</a>
+
+
+# Minimum Sistem Gereksinimleri
+
+- **4 CPU**
+- **8GB RAM**
+- **1TB DISK**
+- **Ubuntu 20.04+**
+
+160GB Disk'te yeterli olacaktır.
+
+
+
 
