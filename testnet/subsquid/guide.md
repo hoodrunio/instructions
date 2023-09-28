@@ -82,6 +82,15 @@ Her şey doğru ise aşağıdaki gibi çıktı görmelisiniz.
 
 ![alt text](https://i.hizliresim.com/hb1u9iq.png)
 
+Eğer stuck durumuna düşerseniz genellikle portlar ile alakalıdır. (sıfır hetzner sunucu da stuck verdi)
+
+`ufw disable`  yaptıktan sonra restart atın.
+
+Restart yerinde dashboardda gördüğünüz isim@v.. nameinizi de girerek aşağıdaki kodu kullanın. Örn:
+
+```python
+sqd restart isim@v..
+```
 
 
 
