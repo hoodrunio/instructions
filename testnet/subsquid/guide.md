@@ -118,6 +118,9 @@ Buradaki görevleri yapın. Karşılığında metamask adresinize $tSQD gelecek 
 
 - **Galxe** **https://galxe.com/subsquid/**
 
+# Hatalar (stuck, error, RPC)
+
+
 
 
 
