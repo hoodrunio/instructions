@@ -3,6 +3,8 @@
 
 # Genel Bakış
 
+
+<a href="https://medium.com/testnet-run/d8285a043223">Kapsamlı Ödül Dağılımı ve Genel Bilgiler</a>
 - **Program: Subsquid Genel Testnet ( Phase 1 ve 2 )** 
 - **Katılım Kriterleri: Aşağıdaki Uygunluk bölümüne tabidir** 
 - **Katılım Sınırı: Node Runners: Uygulama yoluyla seçilen en fazla `500` katılımcı; `en üst sıradaki 133 node` ödüller için uygun olacaktır.** 
