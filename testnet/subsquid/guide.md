@@ -60,5 +60,14 @@ Bundan sonraki kodları <a href="https://app.subsquid.io/squids/">Dashboard</a> 
 
 ![alt text](https://i.hizliresim.com/9p6sbk5.png)
 
+Her şey doğru ise aşağıdaki gibi çıktı görmelisiniz.
+
+
+![alt text](https://i.hizliresim.com/b7u72s2.png)
+
+![alt text](https://i.hizliresim.com/qgfokeg.png)
+
+
+
 
 
