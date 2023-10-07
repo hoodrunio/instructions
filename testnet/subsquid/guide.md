@@ -1,5 +1,12 @@
 ![alt text](https://i.hizliresim.com/bw0rh5z.png)
 
+# ÖNEMLİ
+Subsquid görevleri içinde deploy etme yok. David bu konu hakkında aşağıdakileri yazdı. Şu an kurulum yapmanıza gerek yok.
+
+![alt text](https://i.hizliresim.com/quvu9w7.png)
+
+
+Tech Görevlerini yapabilirsiniz: https://github.com/testnetrunn/instructions/blob/main/testnet/subsquid/techguide.md
 
 # Genel Bakış
 
