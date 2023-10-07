@@ -137,7 +137,7 @@ sqd run .
 
 Görev tamamlandıktan sonra siteden claim yapın.
 
-2. 3 . ve 4. görevler için eğer yeni bir Github Codespace oluşturmayacak şu anki ile devam edecekseniz aşağıdaki yolu izleyin.
+Diğer görevler için eğer yeni bir Github Codespace oluşturmayacak şu anki ile devam edecekseniz aşağıdaki yolu izleyin.
   
 CRTL-C ile durdurun.
 
