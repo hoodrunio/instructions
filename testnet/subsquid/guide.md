@@ -5,8 +5,7 @@ Subsquid görevleri içinde deploy etme yok. David bu konu hakkında aşağıdak
 
 
 
-![alt text](https://i.hizliresim.com/quvu9w7.jpeg)
-
+![alt text](https://i.hizliresim.com/f9b1ex8.jpeg)
 
 
 Tech Görevlerini yapabilirsiniz: https://github.com/testnetrunn/instructions/blob/main/testnet/subsquid/techguide.md
