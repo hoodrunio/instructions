@@ -8,7 +8,7 @@
 
 Testnet katılım girişimlerine ilişkin daha fazla bilgi için,
 
-- **bu linke bakın.:** **https://blog.fleek.network/post/fleek-network-testnet-plans/**
+**bu linke bakın:** **https://blog.fleek.network/post/fleek-network-testnet-plans/**
 Kısacası şimdilik belirli test ağı aşamalarının herhangi birinde doğrudan bir teşvik bulunmuyor. Yine de birçok genel girişim mevcut (yukarıda bağlantısı verilen blogun Testnet Katılımı bölümünde özetlenmiştir).
 
 
