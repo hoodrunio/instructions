@@ -119,6 +119,13 @@ curl https://get.fleek.network/healthcheck | bash
 
 ![alt text](https://i.hizliresim.com/qhuzpqm.png)
 
+```python
+http://sunucuipsi:4230/health
+```
+
+![alt text](https://i.hizliresim.com/i1ws5nb.png)
+
+
 
 ## Log Kontrol
 
