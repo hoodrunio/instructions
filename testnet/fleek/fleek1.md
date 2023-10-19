@@ -74,7 +74,7 @@ Currency symbol: tFLK
 
 Faucet sitesine metamask ile bağlantıktan sonra tokenları mint edin.
 
-![alt text](https://i.hizliresim.com/nhfpdvn.jpg)
+![alt text](https://i.hizliresim.com/nhfpdvn.jpeg)
 
 
 
