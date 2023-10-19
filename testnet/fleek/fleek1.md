@@ -1,6 +1,21 @@
 
 ![alt text](https://i.hizliresim.com/d4bcrd1.png)
 
+
+# ÖNEMLİ
+
+- **Phase {1} için teşvik var mı?**
+
+Testnet katılım girişimlerine ilişkin daha fazla bilgi için,
+
+- **bu linke bakın.:** **https://blog.fleek.network/post/fleek-network-testnet-plans/**
+Kısacası şimdilik belirli test ağı aşamalarının herhangi birinde doğrudan bir teşvik bulunmuyor. Yine de birçok genel girişim mevcut (yukarıda bağlantısı verilen blogun Testnet Katılımı bölümünde özetlenmiştir).
+
+
+- **Phase {1} kalıcı bir test ağı mı olacak yoksa belirli bir süre sonra kapatılacak mı?**
+
+Phase {1} kalıcı bir test ağı olmayacak. İlk plan bu aşamayı bir (1) hafta boyunca yürütmektir, ancak işlerin gidişatına bağlı olarak bu zaman çizelgesi uzatılabilir. Uzatılması halinde önceden duyurulacaktır.
+
 # Minimum Sistem Gereksinimleri
 
 - **4 CPU**
