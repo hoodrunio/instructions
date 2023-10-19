@@ -64,7 +64,7 @@ Rust ile birlikte kurulum uzun sürebilir.
 
 ![alt text](https://i.hizliresim.com/rbc2oag.png)
 
-Enter dedikten sonra Node Public Key Consensus Public Key'i kaydedin. SFTP bağlantısı ile consensus.pem dosyasını da bilgisayarınıza aktarın. (ne olur ne olmaz)
+Enter dedikten sonra Node Public Key Consensus Public Key'i kaydedin. SFTP bağlantısı ile `consensus.pem` ve `node.pem` dosyasını da bilgisayarınıza aktarın. (ne olur ne olmaz)
 
 ![alt text](https://i.hizliresim.com/tdgxv7a.png)
 
