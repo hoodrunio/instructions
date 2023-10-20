@@ -1,10 +1,20 @@
 
 ![alt text](https://i.hizliresim.com/785b3ek.png)
 
+# Minimum Sistem Gereksinimleri
+
+- **2 CPU**
+- **4GB RAM**
+- **20-40GB DISK**
+- **Ubuntu 20.04++**
+
 # FORM
 Kurulumdan sonra Telemetry sitesinde moniker adınız çıktıktan sonra aşağıdaki twitter gönderisindeki linkten formu doldurun.
 
-**https://x.com/AvailProject/status/1715008696835600451?s=20**
+**Form ve Detaylar:** **https://x.com/AvailProject/status/1715008696835600451?s=20**
+
+**Telemetry:** **https://telemetry.avail.tools/**
+
 
 ```python
 sudo apt update && sudo apt upgrade -y
