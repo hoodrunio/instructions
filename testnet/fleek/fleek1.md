@@ -139,7 +139,8 @@ tail -f /var/log/lightning/diagnostic.log
 
 ## Hata
 
-![alt text](https://i.hizliresim.com/illp1ss.png)
+![alt text](https://i.hizliresim.com/565qbpu.png)
+
 
 Eğer yukarıdaki gibi bir hata alıyorsanız aşağıdaki kodu girin.
 
