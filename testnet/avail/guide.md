@@ -109,3 +109,14 @@ System Durdurma
 sudo systemctl stop availd.service
 ```
 
+
+- **https://t.me/testnetrun**
+
+- **https://link3.to/testnetrun**
+
+- **https://www.youtube.com/@TestNetRun**
+
+- **https://testnet.run/**
+
+- **https://stake.testnet.run/**
+
