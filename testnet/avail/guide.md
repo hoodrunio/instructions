@@ -49,6 +49,10 @@ screen -S avail
 ```
 
 ```python
+cargo build --release -p data-avail
+```
+
+```python
 mkdir -p output
 ```
 
