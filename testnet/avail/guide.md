@@ -116,6 +116,15 @@ System Durdurma
 sudo systemctl stop availd.service
 ```
 
+Senkronizasyon Durumunda Log Çıktısı
+
+![alt text](https://i.hizliresim.com/n8tva63.png)
+
+
+Telemetry üzerinde;
+
+![alt text](https://i.hizliresim.com/p0z1blq.png)
+
 
 - **https://t.me/testnetrun**
 
