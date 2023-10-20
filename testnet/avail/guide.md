@@ -9,6 +9,7 @@
 - **Ubuntu 20.04++**
 
 # Önemli
+Kurulumdan sonra Senkronize olun. Telemetry sitesinde moniker adınız çıkıyorsa formu doldurun.
 
 **Form ve Detaylar:** **https://x.com/AvailProject/status/1715008696835600451?s=20**
 
