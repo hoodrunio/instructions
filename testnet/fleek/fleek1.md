@@ -137,6 +137,16 @@ tail -f /var/log/lightning/output.log
 tail -f /var/log/lightning/diagnostic.log
 ```
 
+## Hata
+
+![alt text](https://i.hizliresim.com/illp1ss.png)
+
+Eğer yukarıdaki gibi bir hata alıyorsanız aşağıdaki kodu girin.
+
+```python
+curl -sS https://get.fleek.network/update | bash
+```
+
 - **https://t.me/testnetrun**
 
 - **https://link3.to/testnetrun**
