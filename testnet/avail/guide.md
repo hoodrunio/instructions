@@ -47,6 +47,9 @@ git clone https://github.com/availproject/avail.git
 ```python
 screen -S avail
 ```
+```python
+cd avail
+```
 
 ```python
 cargo build --release -p data-avail
