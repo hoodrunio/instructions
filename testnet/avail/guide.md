@@ -9,7 +9,6 @@
 - **Ubuntu 20.04++**
 
 # Önemli
-Kurulumdan sonra Telemetry sitesinde moniker adınız çıktıktan sonra aşağıdaki twitter gönderisindeki linkten formu doldurun.
 
 **Form ve Detaylar:** **https://x.com/AvailProject/status/1715008696835600451?s=20**
 
