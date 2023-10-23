@@ -3,7 +3,9 @@
 
 # Hatırlatma
 
-Eğer `Codespaces` üzerinden görevi tamamlamak isterseniz; **https://github.com/testnetrunn/instructions/blob/main/testnet/subsquid/techguide.md** guide'inda `sqd init my-single-proc-squid -t https://github.com/subsquid-quests/single-chain-squid` kodu yerine `sqd init my-snapshot-squid -t https://github.com/subsquid-quests/snapshot-squid` kodunuu girerek devam edebilirsiniz.
+Eğer `Codespaces` üzerinden görevi tamamlamak isterseniz; **https://github.com/testnetrunn/instructions/blob/main/testnet/subsquid/techguide.md** guide'inda 
+`sqd init my-single-proc-squid -t https://github.com/subsquid-quests/single-chain-squid` kodu yerine 
+`sqd init my-snapshot-squid -t https://github.com/subsquid-quests/snapshot-squid` kodunuu girerek devam edebilirsiniz.
 
 ```python
 sudo apt update && sudo apt upgrade -y && sudo apt install nodejs && sudo apt install git
