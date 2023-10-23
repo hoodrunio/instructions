@@ -27,7 +27,19 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
 ```python
+curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+```
+
+```python
+sudo apt-get install -y nodejs
+```
+
+```python
 sudo apt install npm
+```
+
+```python
+sudo npm install -g npm@10.1.0
 ```
 
 ```python
