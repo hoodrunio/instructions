@@ -36,10 +36,6 @@ sudo apt-get install -y nodejs
 ```
 
 ```python
-sudo apt install npm
-```
-
-```python
 sudo npm install -g npm@10.1.0
 ```
 
