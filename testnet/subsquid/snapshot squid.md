@@ -1,6 +1,9 @@
 ![alt text](https://i.hizliresim.com/fkj8pa5.png)
 
 
+# Hatırlatma
+
+Eğer `Codespaces` üzerinden görevi tamamlamak isterseniz; **https://github.com/testnetrunn/instructions/blob/main/testnet/subsquid/techguide.md** guide'inda `sqd init my-single-proc-squid -t https://github.com/subsquid-quests/single-chain-squid` kodu yerine `sqd init my-snapshot-squid -t https://github.com/subsquid-quests/snapshot-squid` kodunuu girerek devam edebilirsiniz.
 
 ```python
 sudo apt update && sudo apt upgrade -y && sudo apt install nodejs && sudo apt install git
@@ -52,10 +55,14 @@ sqd init my-snapshot-squid -t https://github.com/subsquid-quests/snapshot-squid
 ```
 
 ```python
+screen -S subsquid
+```
+
+```python
 cd my-snapshot-squid
 ```
 
-Subsquid Dashboard sitesinde `Get Key`'e tıklayınca inen snapshot dosyasını `gateway/key` klasörü içine SFTP bağlantısı ile aktarın.
+Subsquid Dashboard sitesinde `Get Key`'e tıklayınca inen `snapshot.key` dosyasını `my-snapshot-squid/query-gateway/keys` klasörü içine SFTP bağlantısı ile aktarın.
 
 ```python
 sqd up
@@ -66,10 +73,15 @@ npm ci
 sqd build
 sqd migration:apply
 ```
+![alt text](https://i.hizliresim.com/ezytgp1.png)
+
 
 ```python
 sqd run .
 ```
+![alt text](https://i.hizliresim.com/22oggzg.png)
+
+![alt text](https://i.hizliresim.com/5l2wd3z.png)
 
 
 ## Önemli
