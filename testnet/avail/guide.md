@@ -102,6 +102,7 @@ sudo systemctl status availd.service
 ```
 ![alt text](https://i.hizliresim.com/ag4qsve.png)
 
+CTRL-C ile çıkabilirisniz. 
 
 ```python
 journalctl -f -u availd
