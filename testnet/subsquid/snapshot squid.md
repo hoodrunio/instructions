@@ -118,7 +118,7 @@ sqd run .
 Görev tamamlandıktan sonra siteden claim yapın.
 
 
-- **Twitter** **https://x.com/testnetrun/status/1702116692195770745?s=20**
+- **https://x.com/testnetrun**
 
 - **https://t.me/testnetrun**
 
