@@ -135,7 +135,7 @@ Bu işlemden sonra yoğunluğa göre açmış olduğunuz kanaldan takım sizinle
 Gerekli kontroller yapıldıktan sonra RollApp'iniz portalda listelenecek.
 
 
-- **Twitter** **https://x.com/testnetrun/status/1702116692195770745?s=20**
+- **https://x.com/testnetrun**
 
 - **https://t.me/testnetrun**
 
