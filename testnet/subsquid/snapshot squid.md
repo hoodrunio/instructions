@@ -118,3 +118,15 @@ sqd run .
 Görev tamamlandıktan sonra siteden claim yapın.
 
 
+- **Twitter** **https://x.com/testnetrun/status/1702116692195770745?s=20**
+
+- **https://t.me/testnetrun**
+
+- **https://link3.to/testnetrun**
+
+- **https://www.youtube.com/@TestNetRun**
+
+- **https://testnet.run/**
+
+- **https://stake.testnet.run/**
+
