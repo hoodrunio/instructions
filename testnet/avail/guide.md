@@ -60,10 +60,6 @@ mkdir -p output
 ```
 
 ```python
-mkdir -p data
-```
-
-```python
 git checkout v1.7.2
 ```
 
