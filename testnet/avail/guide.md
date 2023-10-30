@@ -67,6 +67,8 @@ git checkout v1.7.2
 cargo run --locked --release -- --chain kate -d ./output
 ```
 
+CTRL-C
+
 ```python
 sudo touch /etc/systemd/system/availd.service
 ```
