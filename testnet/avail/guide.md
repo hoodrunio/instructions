@@ -77,7 +77,7 @@ sudo touch /etc/systemd/system/availd.service
 sudo nano /etc/systemd/system/availd.service
 ```
 
-Aşağıdaki kodda `monikeradiniz` olan yere validatör adınızı girin. Kodu yapıştırdıktan sonra `CTRL X-Y Enter` ile çıkın.
+Aşağıdaki kodda `"monikeradiniz"` olan yere validatör adınızı girin. Kodu yapıştırdıktan sonra `CTRL X-Y Enter` ile çıkın.
 
 ```python
 [Unit]
